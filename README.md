@@ -6,7 +6,7 @@
 
 `1º semestre/2024`
 
-Escreva um ou dois parágrafos resumindo o objetivo do seu projeto.
+O objetivo do projeto é desenvolver um site direcionado a prestar cuidados aos idosos que padecem dificuldades em suas vidas diárias. As dificuldades físicas e mentais que as pessoas de terceira idade sofrem, devido ao processo natural de envelhecimento, ocasionam muitas vezes em uma dependência de terceiros para viverem bem. Além disso, muitos idosos não conseguem interagir com o mundo digital de maneira simples e segura. Nosso site será um caminho acessível para encontrar prestadores de serviços orientados aos idosos, aprender a lidar com determinadas aplicações da internet e se defender de golpes digitais.
 
 ## Integrantes
 

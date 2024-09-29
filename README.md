@@ -13,7 +13,7 @@ Escreva um ou dois parágrafos resumindo o objetivo do seu projeto.
 * Erik Cristian de Alcântara Costa
 * Franklin Fernando Dias Reis Filho
 * Ivan Barreto Murta
-* Lucas Puggina
+* Lucas Guedes de Athayde Puggina
 * Rodrigo Falcão Muniz
 
 ## Professor

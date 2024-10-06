@@ -1,6 +1,12 @@
 # Introdução
 
-Texto descritivo com a visão geral do projeto abordado. Inclui o contexto, o problema, os objetivos, a justificativa e o público-alvo do projeto.
+De acordo com a Lei em vigor no Brasil, a pessoa idosa é aquela de idade igual 
+ou superior a 60 anos. Conforme uma apuração recente feita pelo Instituto 
+Brasileiro de Geografia e Estatística (IBGE), em 2030, o número de idosos no 
+Brasil aumentará consideravelmente ao ponto de ultrapassar o número de 
+crianças e adolescentes. Portanto, desde logo é extremamente importante propor
+ações privadas e políticas públicas que visem oferecer aos idosos mais conforto, 
+segurança e qualidade de vida.
 
 ## Problema
 Aqui, a equipe deve fornecer uma descrição detalhada do problema a ser resolvido. Não é o momento adequado para abordar questões técnicas relacionadas ao desenvolvimento da aplicação. O objetivo é compreender e comunicar de maneira precisa qual é o desafio ou necessidade que motiva a criação da aplicação.

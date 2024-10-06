@@ -9,11 +9,29 @@ ações privadas e políticas públicas que visem oferecer aos idosos mais confo
 segurança e qualidade de vida.
 
 ## Problema
-Aqui, a equipe deve fornecer uma descrição detalhada do problema a ser resolvido. Não é o momento adequado para abordar questões técnicas relacionadas ao desenvolvimento da aplicação. O objetivo é compreender e comunicar de maneira precisa qual é o desafio ou necessidade que motiva a criação da aplicação.
-
-Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de fato existir, pois ainda não é a hora de apresentar requisitos detalhados ou projetos.
-
-O grupo pode optar por fazer uso de ferramentas como Design Thinking, que permite uma visão completa do problema.
+Tendo em vista o crescimento demográfico da população idosa no país, surgem
+enormes desafios que exigem soluções tão grandes quanto eles. A nossa equipe 
+buscou compreender esses problemas e combatê-los através de uma solução 
+tecnológica. Primeiramente, apresentaremos os problemas, as soluções serão 
+expostas depois.
+Com o ritmo acelerado de nossos dias, algumas pessoas não têm tempo de cuidar 
+de seu trabalho e auxiliar seus idosos (avós, bisavós, entre outros) ao mesmo 
+tempo. Não seria bom conhecer cuidadores de idosos confiáveis e seguros 
+quando não for possível que o próprio parente cuide de seu idoso ou quando os 
+próprio idosos julgarem necessário se submeterem aos cuidados de alguém?
+Onde posso encontrar esse cuidador seguro? E como saber que esse cuidador é 
+uma pessoa confiável?
+Atualmente notícias falsas e golpes digitais se tornaram coisas comuns, as 
+aplicações da internet via WhatsApp, Instagram, Facebook, entre outras são 
+terrenos férteis para golpistas que buscam abusar de usuários inexperientes. 
+Como identificar um golpe? Como saber se a notícia é verdadeira? Quais são os 
+sites ou fontes seguras?
+Através do advento da internet e sua popularização, temos acesso a muitas 
+ferramentas fundamentais como bancos digitais, transportes e entretenimentos.
+Porém, muitos idosos não têm afinidade com tecnologia e ficam perdidos nesse
+mundo digitalizado. Qual aplicativo devo usar para acessar meu banco financeiro? 
+Qual é minha senha e meu usuário de determinada conta ou aplicativo? Como 
+chamo um Uber? Como cadastrar o meu número no WhatsApp?
 
 > **Links úteis**:
 > - [Objetivos, problema de pesquisa e justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)

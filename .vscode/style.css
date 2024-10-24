@@ -2,6 +2,8 @@ body{
     background-color: cyan;
 }
 
+/* Formatação em Desktop */
+
 .search-container{
     display: flex;
     justify-content: center;
@@ -24,4 +26,23 @@ body{
     cursor: pointer;
     border-radius: 5px;
     margin-left: 10px;
+}
+
+/* Responsividade para outros tamanhos de tela */
+
+@media (max-width: 600px){
+    .search-container{
+        flex-direction: column;
+    }
+
+    .search-box{
+        border-radius: 4px;
+        margin: 5px 0;
+    }
+
+    .search-button{
+        border-left: 1px solid;
+        background-color: red;
+        color: white;
+    }
 }

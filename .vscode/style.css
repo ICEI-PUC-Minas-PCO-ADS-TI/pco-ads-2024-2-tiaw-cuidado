@@ -2,6 +2,8 @@ body{
     background-color: cyan;
 }
 
+/* Formatação em Desktop */
+
 .search-container{
     display: flex;
     justify-content: flex-end;
@@ -22,7 +24,7 @@ body{
 }
 
 .search-button{
-    
+    width: 60px;
     padding: 10px;
     border: none;
     background-color: blue;
@@ -33,29 +35,26 @@ body{
     flex-shrink: 0;
 }
 
+ /* Responsividade para outros tamanhos de tela */
 
-
-/* @media (max-width: 600px) {
+ @media (max-width: 600px) {
     .search-container {
-      flex-direction: column;
-    }
-    .search-button {
-        
-      margin-left: 0;
-      margin-top: 10px;
-    }
-}
-*/
-
-@media (max-width: 600px) {
-    .search-container {
-      flex-direction: row; /* Garante que permaneçam em linha */
+      flex-direction: row; 
+      
     }
     .search-box {
-      width: 50%; /* Ajusta a largura da barra de pesquisa */
+      width: 50%;
+      border-radius: 4px;
+      margin: 5px 0;
     }
     .search-button {
-      width: 30%; /* Ajusta a largura do botão */
+      width: 60px; 
+      border-left: 1px solid;
+      color: white;
     }
 }
+
+
+
+
 

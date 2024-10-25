@@ -43,6 +43,23 @@ body{
       
     }
     .search-box {
+      width: 10px;
+      border-radius: 4px;
+      margin: 5px 0;
+    }
+    .search-button {
+      width: 60px; 
+      border-left: 1px solid;
+      color: white;
+    }
+}
+
+@media (max-width: 768px) {
+    .search-container {
+      flex-direction: row; 
+      
+    }
+    .search-box {
       width: 50%;
       border-radius: 4px;
       margin: 5px 0;

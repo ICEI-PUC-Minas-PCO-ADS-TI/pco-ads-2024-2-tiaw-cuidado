@@ -223,6 +223,35 @@ section .info-button button {
 
 /* InfoAluno - Fim */
 
+/* Avaliações - Inicio */
+
+section .ava {
+    display: flex inline-block;
+    justify-content: center;
+    margin: 0% 4% 0% 4%;
+}
+
+section .ava h2 {
+    color: #0095ff;
+    font-weight: bold;
+}
+
+section .avaliações {
+    flex: 1;
+    margin-right: 3%;
+}
+
+section .avaliações p {
+    font-size: 1.2rem;
+}
+
+/* Avaliações - Fim */
+
+
+
+
+
+
 
 
 /* Rodapé - Inicio */

@@ -247,13 +247,6 @@ section .avaliações p {
 
 /* Avaliações - Fim */
 
-
-
-
-
-
-
-
 /* Rodapé - Inicio */
 footer {
     text-align: center;
@@ -265,7 +258,39 @@ footer {
 }
 /* Rodapé - Fim */
 
+/* Avaliações - Início */
 
+
+.Usuario{
+    margin-top: 0%;
+ 
+}
+
+.main{ 
+    margin-left: 25%;
+    margin-top: 0%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Avaliações - Fim */
 
 /* Responsividade - Inicio */
 @media screen and (max-width: 767px) {

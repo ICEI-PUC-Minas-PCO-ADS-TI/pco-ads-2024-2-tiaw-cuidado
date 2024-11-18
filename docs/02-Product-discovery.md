@@ -12,7 +12,21 @@
 >
 > Nesta etapa, é necessário aplicar a metodologia de Design Thinking para compreender de forma mais profunda o problema a ser abordado. Durante esse processo, devem ser elaborados os seguintes elementos:
 >
-> * **Matriz CSD**:  também conhecida como Matriz de Alinhamento, trata-se de uma ferramenta utilizada no Design Thinking para organizar informações, facilitando a tomada de decisões e a solução de problemas;
+> * **Matriz CSD**: Dúvidas (o que ainda não sabemos sobre o problema) - A quem ou ao que os idosos recorrem quando precisam de ajuda? Como garantir que os profissionais cadastrados sejam qualificados e de confiança? Qual a porcentagem de pessoas idosas que moram ou ficam sozinhas em BH, Contagem e Betim? Quais os principais tipos de serviço que a plataforma deve oferecer? Quais funcionalidades são essenciais para a plataforma? Como a plataforma será monetizada?
+
+Certezas (o que já sabemos) - Idosos que moram ou passam muito tempo sozinhos necessitam de ajuda para tarefas do dia-a-dia, como por exemplo:
+. Higiene Pessoal;
+. Carregar Peso;
+. Cuidados com a Saúde.
+. Uso de tecnologia e seus serviços;
+. Assistência jurídica contra tentativas de golpe;
+. Acompanhamento em consultas médicas.
+Idosos e familiares frequentemente encontram dificuldades para encontrar profissionais de confiança e o tipo de serviço oferecido varia de acordo com necessidades específicas dos idosos e seus familiares.
+
+Suposições (o que achamos, mas não temos certeza) - Muitos idosos não têm afinidade com tecnologia e apresentam resistência em receber ajuda. 
+Será difícil encontrar cuidadores de idosos dispostos a fazerem atividades diárias "mais complexas", além disso muitos cuidadores trabalham de forma informal e com baixa remuneração. 
+A maioria dos acidentes envolvendo idosos acontecem em casa, quando estão sozinhos e grande parte dessas pessoas moram sozinhas sem nenhum tipo de ajuda vinda de fora do núcleo familiar.
+;
 > * **Mapa de stakeholders**: ferramenta que permite identificar e entender o grupo de pessoas e entidades que devem ser analisados e consultados para obter uma visão mais ampla do problema;
 > * **Entrevistas qualitativas**: uma série de entrevistas qualitativas a fim de validar suposições e esclarecer dúvidas junto aos principais envolvidos;
 > * **Highlights de pesquisa**: um compilado das informações levantadas durante as entrevistas realizadas.

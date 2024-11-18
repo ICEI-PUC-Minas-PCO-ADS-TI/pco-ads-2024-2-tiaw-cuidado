@@ -27,7 +27,10 @@ Suposições (o que achamos, mas não temos certeza) - Muitos idosos não têm a
 Será difícil encontrar cuidadores de idosos dispostos a fazerem atividades diárias "mais complexas", além disso muitos cuidadores trabalham de forma informal e com baixa remuneração. 
 A maioria dos acidentes envolvendo idosos acontecem em casa, quando estão sozinhos e grande parte dessas pessoas moram sozinhas sem nenhum tipo de ajuda vinda de fora do núcleo familiar.
 ;
-> * **Mapa de stakeholders**: ferramenta que permite identificar e entender o grupo de pessoas e entidades que devem ser analisados e consultados para obter uma visão mais ampla do problema;
+> * **Mapa de stakeholders**: Pessoas fundamentais - Pessoas idosas, cuidadores de idosos e prestadores de serviço orientado aos idosos.
+Pessoas importantes - Familiares e amigos, lares de idosos e casas de repouso.
+Pessoas influenciadoras - Secretaria Nacional dos Direitos da Pessoa idosa.
+
 > * **Entrevistas qualitativas**: uma série de entrevistas qualitativas a fim de validar suposições e esclarecer dúvidas junto aos principais envolvidos;
 > * **Highlights de pesquisa**: um compilado das informações levantadas durante as entrevistas realizadas.
 

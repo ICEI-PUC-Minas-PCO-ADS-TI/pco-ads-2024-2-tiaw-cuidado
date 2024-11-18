@@ -31,7 +31,19 @@ A maioria dos acidentes envolvendo idosos acontecem em casa, quando estão sozin
 Pessoas importantes - Familiares e amigos, lares de idosos e casas de repouso.
 Pessoas influenciadoras - Secretaria Nacional dos Direitos da Pessoa idosa.
 
-> * **Entrevistas qualitativas**: uma série de entrevistas qualitativas a fim de validar suposições e esclarecer dúvidas junto aos principais envolvidos;
+> * **Entrevistas qualitativas**: Perguntas feitas aos idosos ou familiares de idosos -
+Você utiliza alguma tecnologia? Qual a sua dificuldade em utilizá-la?
+Quais são as suas dificuldades no dia a dia?
+Você aceitaria ajuda de terceiros através da Internet? Por quê?
+Se existisse um site ou app para encontrar pessoas para te ajudar em algumas tarefas do dia a dia, você procuraria saber mais sobre ele? Por quê?
+Você mora sozinha? Alguém ajuda você com as tarefas do dia a dia?
+Como a tecnologia te auxilia?
+Você tem interesse em aprender sobre tecnologia? Se sim, o quê?;
+
+Perguntas feitas aos cuidadores de idosos - 
+Qual a sua dificuldade em achar serviço na área de cuidador de idosos?
+O que você acha de um aplicativo ou site que te ajudaria a achar emprego na área?
+Você tem alguma dificuldade em relação a tecnologia?
 > * **Highlights de pesquisa**: um compilado das informações levantadas durante as entrevistas realizadas.
 
 > **Links úteis**:

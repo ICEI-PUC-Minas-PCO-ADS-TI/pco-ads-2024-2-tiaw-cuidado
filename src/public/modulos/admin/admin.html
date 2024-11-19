@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,7 +8,50 @@
     <script src="/src/public/assets/js/admin.js" defer></script>
     <title>Painel Administrador - Cuidado+</title>
 </head>
+
 <body>
-    
+    <aside class="sidebar">
+        <header class="sidebar-header">
+            <a href="#" class="header-logo">
+                <img src="/src/public/assets/images/logo.png" alt="logo">
+            </a>
+            <button class="toggler">
+                <img class="nav-icon" src="/src/public/assets/images/admin-images/chevron-left.png" alt="arrow left">
+            </button>
+        </header>
+
+        <nav class="sidebar-nav">
+            <ul class="nav-list primary-nav">
+                <li class="nav-item">
+                    <a href="#" class="nav-link">
+                        <img class="nav-icon" src="/src/public/assets/images/admin-images/dashboard.png" alt="visão geral">
+                        <span class="nav-label">Visão Geral</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">
+                        <img class="nav-icon" src="/src/public/assets/images/admin-images/idosos.png" alt="idosos">
+                        <span class="nav-label">Idosos</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">
+                        <img class="nav-icon" src="/src/public/assets/images/admin-images/cuidador.png" alt="cuidador">
+                        <span class="nav-label">Cuidador</span>
+                    </a>
+                </li>
+            </ul>
+
+            <ul class="nav-list secondary-nav">
+                <li class="nav-item">
+                    <a href="#" class="nav-link">
+                        <img class="nav-icon" src="/src/public/assets/images/admin-images/logout.png" alt="sair">
+                        <span class="nav-label">Sair</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </aside>
 </body>
+
 </html>

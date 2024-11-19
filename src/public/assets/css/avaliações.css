@@ -61,110 +61,6 @@ header a img {
 
 /* Cabeçalho - Fim */
 
-
-
-/* Slides - Inicio */
-.slider {
-    margin: 20px auto;
-    width: 800px;
-    height: 400px;
-    overflow: hidden;
-    border: 3px solid black;
-    border-radius: 20px;
-}
-
-.slider-content {
-    width: 400%;
-    height: 400px;
-    display: flex;
-}
-
-.slider-content input {
-    display: none;
-}
-
-.slide-box {
-    width: 25%;
-    position: relative;
-    transition: 1s;
-}
-
-.slide-box img {
-    width: 800px;
-}
-
-.nav-manual {
-    position: absolute;
-    width: 800px;
-    margin-top: 360px;
-    display: flex;
-    justify-content: center;
-}
-
-.manual-btn {
-    border: 2px solid white;
-    padding: 5px;
-    border-radius: 10px;
-    cursor: pointer;
-    transition: 1s;
-}
-
-.manual-btn:not(:last-child) {
-    margin-right: 20px;
-}
-
-.manual-btn:hover {
-    background-color: white;
-}
-
-#radio1:checked ~ .primeiro {
-    margin-left: 0;
-}
-
-#radio2:checked ~ .primeiro {
-    margin-left: -25%;
-}
-
-#radio3:checked ~ .primeiro {
-    margin-left: -50%;
-}
-
-.nav-auto div {
-    border: 2px solid white;
-    padding: 5px;
-    border-radius: 10px;
-    cursor: pointer;
-    transition: 1s;
-}
-
-.nav-auto {
-    position: absolute;
-    width: 800px;
-    margin-top: 360px;
-    display: flex;
-    justify-content: center;
-}
-
-.nav-auto div:not(:last-child){
-    margin-right: 20px;
-}
-
-#radio1:checked ~ .nav-auto .auto-btn1 {
-    background-color: white;
-}
-
-#radio2:checked ~ .nav-auto .auto-btn2 {
-    background-color: white;
-}
-
-#radio3:checked ~ .nav-auto .auto-btn3 {
-    background-color: white;
-}
-
-/* Slides - Fim */
-
-
-
 /* Linha Titulos - Inicio */
 section .titulo {
     font-size: 2.3rem;
@@ -172,50 +68,7 @@ section .titulo {
     border-bottom: 3px solid black;
     padding: 10px;
 }
-
 /* Linha Titulos - Fim */
-
-
-
-/* InfoAluno - Inicio */
-section .info {
-    display: flex;
-    justify-content: center;
-    margin: 0% 4% 0% 4%;
-}
-
-section .info h2 {
-    color: #0095ff;
-    font-weight: bold;
-}
-
-section .informativos {
-    flex: 1;
-    margin-right: 3%;
-}
-
-section .informativos p {
-    font-size: 1.2rem;
-}
-
-section .info-button {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-right: 10%;
-}
-
-section .info-button button {
-    background: #92A8D1;
-    font-size: 1.7rem;
-    font-weight: bolder;
-    border: 2px black solid;
-    border-radius: 20px;
-    margin-bottom: 5%;
-    padding: 15px;
-}
-
-/* InfoAluno - Fim */
 
 /* Avaliações - Inicio */
 
@@ -292,9 +145,6 @@ section .avaliações p {
 }
 
 /* Avaliações - Fim */
-
-
-
 
 /* Rodapé - Inicio */
 footer {

@@ -1,6 +1,31 @@
 {
     "results": [
       { "query": "avaliações", "url": "http://127.0.0.1:5501/src/public/avalia%C3%A7oes.html" }
-    ]
+    ],
+
+    "usuarios": [
+    {
+      "nome": "João Silva",
+      "idade": 30,
+      "email": "joao.silva@exemplo.com",
+      "img": "/src/public/assets/images/usuario_joao.png"
+    },
+    {
+      "nome": "Maria Oliveira",
+      "idade": 25,
+      "email": "maria.oliveira@exemplo.com",
+      "img": "/src/public/assets/images/usuario_maria.png"
+    },
+    {
+      "nome": "Carlos Pereira",
+      "idade": 40,
+      "email": "carlos.pereira@exemplo.com",
+      "img": "/src/public/assets/images/usuario_carlos.png"
+    }
+  ]
 }
+
+
+
+
   

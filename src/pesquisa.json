@@ -7,20 +7,20 @@
     {
       "nome": "João Silva",
       "idade": 30,
-      "email": "joao.silva@exemplo.com",
-      "img": "/src/public/assets/images/usuario_joao.png"
+      "email": "joao.silva@exemplo.com"
+      
     },
     {
       "nome": "Maria Oliveira",
       "idade": 25,
-      "email": "maria.oliveira@exemplo.com",
-      "img": "/src/public/assets/images/usuario_maria.png"
+      "email": "maria.oliveira@exemplo.com"
+      
     },
     {
       "nome": "Carlos Pereira",
       "idade": 40,
-      "email": "carlos.pereira@exemplo.com",
-      "img": "/src/public/assets/images/usuario_carlos.png"
+      "email": "carlos.pereira@exemplo.com"
+      
     }
   ]
 }

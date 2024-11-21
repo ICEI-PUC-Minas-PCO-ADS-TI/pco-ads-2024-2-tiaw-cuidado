@@ -54,7 +54,7 @@ As tabelas a seguir apresentam os requisitos funcionais e não funcionais que de
 | ID     | Descrição do Requisito                                   | Prioridade |
 | ------ | ---------------------------------------------------------- | ---------- |
 | RF-001 | Cadastro e criação de perfis para clientes e prestadores de serviços. | ALTA       |
-| RF-002 | Emitir um relatório de tarefas no mês ⚠️ EXEMPLO ⚠️ | MÉDIA     |
+| RF-002 | Filtro para o prestador de serviço desejado | MÉDIA     |
 
 ### Requisitos não funcionais
 

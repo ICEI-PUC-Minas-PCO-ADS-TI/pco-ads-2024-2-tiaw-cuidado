@@ -13,7 +13,10 @@ const adjustSidebarHeight = () => {
         sidebar.style.height = fullSidebarHeight;
         sidebar.classList.remove("menu-active");
     } else {
-        sidebar.style.height = sidebar.classList.contains("menu-active") ? `${sidebar.scrollHeight}px` : collapsedSidebarHeight;
+        sidebar.style.height = collapsedSidebarHeight;
+        sidebar.classList.remove("collapsed");
+        const isMenuActive = sidebar.classList.contains("menu-active");
+        menuToggler.querySelector("img").src = isMenuActive ? "/src/public/assets/images/admin-images/fechar.png" : "/src/public/assets/images/admin-images/menu.png";
     }
 };
 
@@ -34,7 +37,6 @@ const toggleMenu = (isMenuActive) => {
 };
 
 window.addEventListener("resize", adjustSidebarHeight);
-
 window.addEventListener("load", adjustSidebarHeight);
 
 // Barra Lateral - Fim 

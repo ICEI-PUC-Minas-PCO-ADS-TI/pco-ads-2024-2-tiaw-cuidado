@@ -68,12 +68,12 @@ As tabelas a seguir apresentam os requisitos funcionais e não funcionais que de
 
 | ID      | Descrição do Requisito                                                              | Prioridade |
 | ------- | ------------------------------------------------------------------------------------- | ---------- |
-| RNF-001 | O sistema deve ser responsivo para rodar em dsispositivos móvei ⚠️ EXEMPLO ⚠️ | MÉDIA     |
-| RNF-002 | Deve processar as requisições do usuário em no máximo 3 segundos ⚠️ EXEMPLO ⚠️          | BAIXA      |
-| RNF-003 | Deve processar as requisições do usuário em no máximo 3 segundos ⚠️ EXEMPLO ⚠️          | BAIXA      |
-| RNF-004 | Deve processar as requisições do usuário em no máximo 3 segundos ⚠️ EXEMPLO ⚠️          | BAIXA      |
-| RNF-005 | Deve processar as requisições do usuário em no máximo 3 segundos ⚠️ EXEMPLO ⚠️          | BAIXA      |
-| RNF-006 | Deve processar as requisições do usuário em no máximo 3 segundos ⚠️ EXEMPLO ⚠️          | BAIXA      |
+| RNF-001 | O sistema vai ter portabilidade com dispositivos moveis em geral, principamente mobile e desktops, com interfaces responsivas.                                                                        | MÉDIA      |
+| RNF-002 | Ser intuitivo e acessível, especialmente especialmente para os idosos, com uma interface limpa botoes bem visiveis.                                                                           | ALTA     |
+| RNF-003 | Sistema disponivel 100% do tempo para todas as aplicações do site.      | MEDIA      |
+| RNF-004 | Linguagem HTML, CSS, JSON e JavaScript.                                 | MEDIA      |
+| RNF-005 | O site será disponibilizado no Git Hub, uma plataforma dehospedagem de código fonte e arquivoscom controle de versão usando o Git.                                                                                | ALTA     |
+| RNF-006 | A fonte das letras deve seracessível para os idosos com baixavisão.       | ALTA      |
 
 
 

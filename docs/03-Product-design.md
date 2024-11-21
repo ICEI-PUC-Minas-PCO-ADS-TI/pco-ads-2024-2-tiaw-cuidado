@@ -53,7 +53,7 @@ As tabelas a seguir apresentam os requisitos funcionais e não funcionais que de
 
 | ID     | Descrição do Requisito                                   | Prioridade |
 | ------ | ---------------------------------------------------------- | ---------- |
-| RF-001 | Permitir o cadastro e criação de perfis para clientes e profissionais  ALTA       |
+| RF-001 | Permitir o cadastro e criação de perfis para clientes e profissionais  |ALTA       |
 | RF-002 | Filtro para escolha e contratação dos profissionais | MEDIA     |
 | RF-003 | Permitir que o usuário poste os serviços desejados | ALTA     |
 | RF-004 | Barra de pesquisa para buscar informações e transitar entre as páginas |MEDIA     |

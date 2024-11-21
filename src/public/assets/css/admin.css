@@ -53,8 +53,6 @@ body {
 }
 
 .sidebar-header .toggler {
-    position: absolute;
-    right: 20px;
     height: 35px;
     width: 35px;
     border: none;
@@ -67,19 +65,28 @@ body {
     transition: 0.4s ease;
 }
 
-.sidebar.collapsed .sidebar-header .toggler {
+.sidebar-header .sidebar-toggler {
+    position: absolute;
+    right: 20px;
+}
+
+.sidebar.collapsed .sidebar-header .sidebar-toggler {
 transform: translate(-4px, 65px);
 }
 
 .sidebar-header .toggler:hover {
-    background: #dde4fb;
+    background: #fff;
 }
 
-.sidebar-header .toggler img {
+.sidebar-header .menu-toggler {
+    display: none;
+}
+
+.sidebar-header .sidebar-toggler img {
     transition: 0.4s ease;
 }
 
-.sidebar.collapsed .sidebar-header .toggler img {
+.sidebar.collapsed .sidebar-header .sidebar-toggler img {
     transform: rotate(180deg);
 }
 
@@ -158,4 +165,67 @@ transform: translate(-4px, 65px);
     position: absolute;
     bottom: 30px;
     width: 100%;
+}
+
+@media (max-width: 1024px) {
+    .sidebar {
+        height: 80px;
+        margin: 13px;
+        overflow-y: hidden;
+        scrollbar-width: none;
+        width: calc(100% - 28px);
+        max-height: calc(100vh - 28px);
+    }
+    
+    .sidebar.menu-active {
+        overflow-y: auto;
+    }
+
+    .sidebar-header {
+        position: sticky;
+        top: 0;
+        z-index: 20;
+        background: #92A8D1;
+        padding: 8px 10px;
+        border-radius: 16px;
+    }
+
+    .sidebar-header .header-logo img {
+        width: 100px;
+        height: 70px;
+    }
+
+    .sidebar-header .sidebar-toggler, .sidebar-nav .nav-tooltip  {
+        display: none;
+    }
+
+    .sidebar-header .menu-toggler {
+        display: flex;
+        height: 30px;
+        width: 30px;
+    }
+
+    .sidebar-header .menu-toggler span {
+        font-size: 1.3rem;
+    }
+
+    .sidebar-nav .nav-list {
+        padding: 0 10px;
+    }
+
+    .sidebar-nav .nav-link {
+        gap: 10px;
+        padding: 10px;
+        font-size: 0.94rem;
+    }
+
+    .sidebar-nav .nav-link .nav-icon {
+        font-size: 1.37rem;
+    }
+
+    .sidebar-nav .secondary-nav {
+        position: relative;
+        bottom: 0;
+        margin: 40px 0 30px;
+    }
 }

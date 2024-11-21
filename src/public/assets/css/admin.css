@@ -10,6 +10,8 @@ body {
     background: #F0F0F0;
 }
 
+/* Barra Lateral - Inicio */
+
 .nav-icon {
     width: 24px;
     height: 24px;
@@ -176,7 +178,7 @@ transform: translate(-4px, 65px);
         width: calc(100% - 28px);
         max-height: calc(100vh - 28px);
     }
-    
+
     .sidebar.menu-active {
         overflow-y: auto;
     }
@@ -229,3 +231,5 @@ transform: translate(-4px, 65px);
         margin: 40px 0 30px;
     }
 }
+
+/* Barra Lateral - Fim */

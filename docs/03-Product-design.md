@@ -14,7 +14,7 @@ Com base na análise das personas, foram identificadas as seguintes histórias d
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas  ⚠️ EXEMPLO ⚠️         | Não esquecer de fazê-las               |
+|Idoso  | Quero um profissional qualificado para me acompanhar e me ajudar com minhas tarefas         | Porque estou sozinha, distante da minha família, tenho limitações pela idade e preciso de alguém que me faça companhia e saiba me socorrer em caso de emergência.               |
 |Administrador       | Alterar permissões        ⚠️ EXEMPLO ⚠️         | Permitir que possam administrar contas |
 
 > ⚠️ **APAGUE ESTA PARTE ANTES DE ENTREGAR SEU TRABALHO**
@@ -56,13 +56,13 @@ As tabelas a seguir apresentam os requisitos funcionais e não funcionais que de
 | RF-001 | Permitir o cadastro e criação de perfis para clientes e profissionais  ALTA       |
 | RF-002 | Filtro para escolha e contratação dos profissionais | MEDIA     |
 | RF-003 | Permitir que o usuário poste os serviços desejados | ALTA     |
-| RF-004 | Barra de pesquisa para buscar informações e transitar entre as páginas | ALTA     |
-| RF-005 | Permitir que o usuário poste os serviços desejados | ALTA     |
-| RF-006 | Permitir que o usuário poste os serviços desejados | ALTA     |
-| RF-007 | Permitir que o usuário poste os serviços desejados | ALTA     |
-| RF-008 | Permitir que o usuário poste os serviços desejados | ALTA     |
-| RF-009 | Permitir que o usuário poste os serviços desejados | ALTA     |
-| RF-010 | Permitir que o usuário poste os serviços desejados | ALTA     |
+| RF-004 | Barra de pesquisa para buscar informações e transitar entre as páginas |MEDIA     |
+| RF-005 | Permitir avaliação de clientes e profissionais | ALTA     |
+| RF-006 | Slide  | MEDIA     |
+| RF-007 | Banner | MEDIA    |
+| RF-008 | Formas de pagamento | ALTA     |
+| RF-009 | Página de administrador | ALTA     |
+| RF-010 | Cards com serviços disponíveis para o cuidador | ALTA     |
 
 ### Requisitos não funcionais
 

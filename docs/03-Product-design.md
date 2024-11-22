@@ -14,38 +14,35 @@ Com base na análise das personas, foram identificadas as seguintes histórias d
 
 EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Idoso  | Quero um profissional qualificado para me acompanhar e me ajudar com minhas tarefas         | Porque estou sozinha, distante da minha família, tenho limitações pela idade e preciso de alguém que me faça companhia e saiba me socorrer em caso de emergência.               |
-|Administrador       | Alterar permissões        ⚠️ EXEMPLO ⚠️         | Permitir que possam administrar contas |
+|Filho |  Quero alguem que ajude minha mãe a mexer no uber       | Porque não estou sempre por perto e não tenho tempo suficiente para ensiná-la com paciência.              |
 
-|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
+                 
 |--------------------|------------------------------------|----------------------------------------|
-|Idoso  | Quero um profissional qualificado para me acompanhar e me ajudar com minhas tarefas         | Porque estou sozinha, distante da minha família, tenho limitações pela idade e preciso de alguém que me faça companhia e saiba me socorrer em caso de emergência.               |
-|Administrador       | Alterar permissões        ⚠️ EXEMPLO ⚠️         | Permitir que possam administrar contas |
+|Fisioterapeuta  | Quero expandir os meus clientes        | Para fazer uma renda extra e atender quem necessita do meu trabalho.               |
 
-|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
-|--------------------|------------------------------------|----------------------------------------|
-|Idoso  | Quero um profissional qualificado para me acompanhar e me ajudar com minhas tarefas         | Porque estou sozinha, distante da minha família, tenho limitações pela idade e preciso de alguém que me faça companhia e saiba me socorrer em caso de emergência.               |
-|Administrador       | Alterar permissões        ⚠️ EXEMPLO ⚠️         | Permitir que possam administrar contas |
 
-|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
-|--------------------|------------------------------------|----------------------------------------|
-|Idoso  | Quero um profissional qualificado para me acompanhar e me ajudar com minhas tarefas         | Porque estou sozinha, distante da minha família, tenho limitações pela idade e preciso de alguém que me faça companhia e saiba me socorrer em caso de emergência.               |
-|Administrador       | Alterar permissões        ⚠️ EXEMPLO ⚠️         | Permitir que possam administrar contas |
 
-|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Idoso  | Quero um profissional qualificado para me acompanhar e me ajudar com minhas tarefas         | Porque estou sozinha, distante da minha família, tenho limitações pela idade e preciso de alguém que me faça companhia e saiba me socorrer em caso de emergência.               |
-|Administrador       | Alterar permissões        ⚠️ EXEMPLO ⚠️         | Permitir que possam administrar contas |
+|Filha  | Quero ter certeza de que minha mãe está bem assistida recebendo os cuidados e ajudas necessarios      |   Porque fico muito preocupado com a segurança e o bem-estar da minha mãe, especialmente porque não posso visitá-la com frequência.             |
 
-|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
-|--------------------|------------------------------------|----------------------------------------|
-|Idoso  | Quero um profissional qualificado para me acompanhar e me ajudar com minhas tarefas         | Porque estou sozinha, distante da minha família, tenho limitações pela idade e preciso de alguém que me faça companhia e saiba me socorrer em caso de emergência.               |
-|Administrador       | Alterar permissões        ⚠️ EXEMPLO ⚠️         | Permitir que possam administrar contas |
 
-|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
+
 |--------------------|------------------------------------|----------------------------------------|
-|Idoso  | Quero um profissional qualificado para me acompanhar e me ajudar com minhas tarefas         | Porque estou sozinha, distante da minha família, tenho limitações pela idade e preciso de alguém que me faça companhia e saiba me socorrer em caso de emergência.               |
-|Administrador       | Alterar permissões        ⚠️ EXEMPLO ⚠️         | Permitir que possam administrar contas |
+|Cuidadora | Quero encontrar oportunidade de trabalho na minha área        | Porque acabei de me formar como técnica na area de assistência aos idosos              |
+
+
+|--------------------|------------------------------------|----------------------------------------|
+|Administrador de um lar de idosos  | Quero otimizar o gerenciamento dos serviços oferecidos pelo meu negócio e encontrar mais cuidadores         | porque busco eficiência e qualidade na administração da instituição              |
+
+
+|--------------------|------------------------------------|----------------------------------------|
+|Cuidador de idosos  | Quero ter mais praticidade na hora de procurar um emprego         | Porque não consigo emprego na minha área com facilidade               |
+
+
+
+|--------------------|------------------------------------|----------------------------------------|
+|Idoso | Quero melhorar meu contato com redes sociais e ter mais acesso a noticias e jornais digitais        |  Porque tenho o costume e interesse desde jovem de me informar sobre diversos assuntos          |
+
 
 > ⚠️ **APAGUE ESTA PARTE ANTES DE ENTREGAR SEU TRABALHO**
 

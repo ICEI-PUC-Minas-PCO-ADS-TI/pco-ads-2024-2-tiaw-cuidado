@@ -80,6 +80,10 @@ section .titulo {
 
 }
 
+.FotoUsuário{
+    max-width: 200px;
+}
+
 section .ava {
     display: flex inline-block;
     justify-content: center;

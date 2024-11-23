@@ -7,19 +7,21 @@
     {
       "nome": "João Silva",
       "idade": 30,
-      "email": "joao.silva@exemplo.com"
-      
+      "email": "joao.silva@exemplo.com",
+      "img": "teste"
     },
     {
       "nome": "Maria Oliveira",
       "idade": 25,
-      "email": "maria.oliveira@exemplo.com"
+      "email": "maria.oliveira@exemplo.com",
+      "img": "teste"
       
     },
     {
       "nome": "Carlos Pereira",
       "idade": 40,
-      "email": "carlos.pereira@exemplo.com"
+      "email": "carlos.pereira@exemplo.com",
+      "img": "teste"
       
     }
   ]

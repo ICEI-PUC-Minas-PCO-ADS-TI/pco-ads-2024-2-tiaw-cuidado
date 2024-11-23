@@ -14,7 +14,9 @@ const resetLocalStorage = () => {
     const defaultData = [
         { nome: 'Ana Souza', especi: 'Enfermagem', status: 'Ativo' },
         { nome: 'Carlos Lima', especi: 'Fisioterapia', status: 'Inativo' },
-        { nome: 'Maria Fernanda', especi: 'Nutrição', status: 'Ativo' }
+        { nome: 'Maria Fernanda', especi: 'Nutrição', status: 'Ativo' },
+        { nome: 'João Silva', especi: 'Psicologia', status: 'Ativo' },
+        { nome: 'Fernanda Gomes', especi: 'Terapia Ocupacional', status: 'Inativo' }
     ];
     localStorage.setItem('dbcuidadores', JSON.stringify(defaultData));
 };

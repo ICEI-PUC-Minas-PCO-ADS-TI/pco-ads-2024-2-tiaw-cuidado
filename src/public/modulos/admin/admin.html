@@ -1,11 +1,12 @@
 <!DOCTYPE html>
-<html lang="br">
+<html lang="pt-BR">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/src/public/assets/css/sidebar.css">
     <link rel="stylesheet" href="/src/public/assets/css/admin.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.js" defer></script>
     <script src="/src/public/assets/js/admin.js" defer></script>
     <title>Painel Administrador - Cuidado+</title>
 </head>
@@ -29,7 +30,8 @@
             <ul class="nav-list primary-nav">
                 <li class="nav-item">
                     <a href="admin.html" class="nav-link">
-                        <img class="nav-icon" src="/src/public/assets/images/admin-images/dashboard.png" alt="visão geral">
+                        <img class="nav-icon" src="/src/public/assets/images/admin-images/dashboard.png"
+                            alt="visão geral">
                         <span class="nav-label">Visão Geral</span>
                     </a>
                     <span class="nav-tooltip">Visão Geral</span>
@@ -43,7 +45,8 @@
                 </li>
                 <li class="nav-item">
                     <a href="cuidadores.html" class="nav-link">
-                        <img class="nav-icon" src="/src/public/assets/images/admin-images/cuidador.png" alt="cuidadores">
+                        <img class="nav-icon" src="/src/public/assets/images/admin-images/cuidador.png"
+                            alt="cuidadores">
                         <span class="nav-label">Cuidadores</span>
                     </a>
                     <span class="nav-tooltip">Cuidadores</span>
@@ -63,9 +66,24 @@
     </aside>
 
     <!-- Main -->
-     <main>
-        <h1>Teste</h1>
-     </main>
+    <main>
+        <div class="container">
+            
+            <div class="header">
+                <span>Visão Geral</span>
+            </div>
+
+            <div class="chart-container">
+                <div class="chartBar">
+                    <canvas id="barchart"></canvas>
+                </div>
+                <div class="chartPizza">
+                    <canvas id="doughnut"></canvas>
+                </div>
+            </div>
+
+        </div>
+    </main>
 </body>
 
 </html>

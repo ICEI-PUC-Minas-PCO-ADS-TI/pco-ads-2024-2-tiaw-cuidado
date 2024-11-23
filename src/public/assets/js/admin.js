@@ -1,4 +1,3 @@
-
 // Barra Lateral - Inicio
 
 const sidebar = document.querySelector(".sidebar");
@@ -9,7 +8,7 @@ const collapsedSidebarHeight = "80px";
 const fullSidebarHeight = "calc(100vh - 32px)";
 
 const adjustSidebarHeight = () => {
-    if (window.innerWidth >= 1024) {
+    if (window.innerWidth >= 1025) {
         sidebar.style.height = fullSidebarHeight;
         sidebar.classList.remove("menu-active");
     } else {
@@ -40,3 +39,68 @@ window.addEventListener("resize", adjustSidebarHeight);
 window.addEventListener("load", adjustSidebarHeight);
 
 // Barra Lateral - Fim 
+
+const ctx = document.getElementById('barchart').getContext('2d');
+const ctx2 = document.getElementById('doughnut').getContext('2d');
+
+// Gráfico Barra - Inicio
+const barchart = new Chart(ctx, {
+    type: 'bar',
+    data: {
+        labels: ['Idoso', 'Cuidadores'],
+        datasets: [{
+            label: 'Quantidade de Usuários',
+            data: [2, 5],
+            backgroundColor: [
+                'rgba(39, 174, 96, 0.2)',
+                'rgba(142, 68, 173, 0.2)'
+            ],
+            borderColor: [
+                'rgba(39, 174, 96)',
+                'rgba(142, 68, 173)'
+            ],
+            borderWidth: 1
+        }]
+    },
+    options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        scales: {
+            y: {
+                beginAtZero: true
+            }
+        }
+    }
+});
+// Gráfico Barra - Fim
+
+// Gráfico Circulo - Inicio
+const doughnut = new Chart(ctx2, {
+    type: 'doughnut',
+    data: {
+        labels: ['Idoso', 'Cuidadores'],
+        datasets: [{
+            label: 'Quantidade de Usuários',
+            data: [2, 5],
+            backgroundColor: [
+                'rgba(39, 174, 96, 0.2)',
+                'rgba(142, 68, 173, 0.2)'
+            ],
+            borderColor: [
+                'rgba(39, 174, 96)',
+                'rgba(142, 68, 173)'
+            ],
+            borderWidth: 1
+        }]
+    },
+    options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        scales: {
+            y: {
+                beginAtZero: true
+            }
+        }
+    }
+});
+// Gráfico Circulo - Fim

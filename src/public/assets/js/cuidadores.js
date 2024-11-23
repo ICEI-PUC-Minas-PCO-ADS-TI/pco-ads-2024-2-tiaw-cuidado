@@ -83,7 +83,7 @@ btnSalvar.onclick = e => {
 
     if (id !== undefined) {
       itens[id].nome = sNome.value;
-      itens[id].especi = sIdade.value;
+      itens[id].especi = sEspeci.value;
       itens[id].status = sStatus.value;
     } else {
       itens.push({'nome': sNome.value, 'especi': sEspeci.value, 'status': sStatus.value});

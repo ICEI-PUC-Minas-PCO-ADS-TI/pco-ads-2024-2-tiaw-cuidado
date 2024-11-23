@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/src/public/assets/css/sidebar.css">
-    <link rel="stylesheet" href="/src/public/assets/css/admin.css">
-    <script src="/src/public/assets/js/admin.js" defer></script>
+    <link rel="stylesheet" href="/src/public/assets/css/pages.css">
+    <script src="/src/public/assets/js/cuidadores.js" defer></script>
     <title>Painel Administrador - Cuidado+</title>
 </head>
 
@@ -29,7 +29,8 @@
             <ul class="nav-list primary-nav">
                 <li class="nav-item">
                     <a href="admin.html" class="nav-link">
-                        <img class="nav-icon" src="/src/public/assets/images/admin-images/dashboard.png" alt="visão geral">
+                        <img class="nav-icon" src="/src/public/assets/images/admin-images/dashboard.png"
+                            alt="visão geral">
                         <span class="nav-label">Visão Geral</span>
                     </a>
                     <span class="nav-tooltip">Visão Geral</span>
@@ -43,7 +44,8 @@
                 </li>
                 <li class="nav-item">
                     <a href="cuidadores.html" class="nav-link">
-                        <img class="nav-icon" src="/src/public/assets/images/admin-images/cuidador.png" alt="cuidadores">
+                        <img class="nav-icon" src="/src/public/assets/images/admin-images/cuidador.png"
+                            alt="cuidadores">
                         <span class="nav-label">Cuidadores</span>
                     </a>
                     <span class="nav-tooltip">Cuidadores</span>
@@ -63,9 +65,50 @@
     </aside>
 
     <!-- Main -->
-     <main>
-        <h1>Teste</h1>
-     </main>
+    <main>
+        <div class="container">
+            <div class="header">
+                <span>Cuidadores</span>
+                <button onclick="openModal()" id="new">Adicionar</i></button>
+            </div>
+
+
+            <div class="divTable">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Nome</th>
+                            <th>Especialização</th>
+                            <th>Status</th>
+                            <th class="acao">Editar</th>
+                            <th class="acao">Remover</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="modal-container">
+                <div class="modal">
+                    <form>
+                        <label for="m-nome">Nome</label>
+                        <input id="m-nome" type="text" required>
+
+                        <label for="m-especi">Especialização</label>
+                        <input id="m-especi" type="text" required>
+
+                        <label for="m-status">Status</label>
+                        <select id="m-status" required>
+                            <option value="Ativo">Ativo</option>
+                            <option value="Inativo">Inativo</option>
+                        </select>
+                        <button id="btnSalvar">Salvar</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
 </body>
 
 </html>

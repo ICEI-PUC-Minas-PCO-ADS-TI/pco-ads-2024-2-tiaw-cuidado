@@ -28,10 +28,13 @@ async function buscarUsuario(inputSelector, usuarioDivSelector) {
     } else {
         usuarioDiv.innerHTML = "<p>Usuário não encontrado!</p>";
     }
+
+    // Limpa comentários ao realizar uma nova busca
+    limparComentarios(".lista-comentarios");
 }
 
 // 2º Etapa: Armazenar e Exibir Comentários
-const comentariosSalvos = []; // Array para armazenar comentários
+let comentariosTemporarios = []; // Array temporário para armazenar comentários
 
 // Função para salvar comentário
 function salvarComentario(textareaSelector, listaSelector) {
@@ -42,7 +45,7 @@ function salvarComentario(textareaSelector, listaSelector) {
         return;
     }
 
-    comentariosSalvos.push(comentario); // Adiciona ao array
+    comentariosTemporarios.push(comentario); // Adiciona ao array temporário
     alert("Comentário salvo com sucesso!");
     document.querySelector(textareaSelector).value = ""; // Limpa o campo de texto
     atualizarComentarios(listaSelector); // Atualiza a exibição dos comentários
@@ -51,13 +54,21 @@ function salvarComentario(textareaSelector, listaSelector) {
 // Função para atualizar a exibição dos comentários
 function atualizarComentarios(listaSelector) {
     const lista = document.querySelector(listaSelector);
+
     lista.innerHTML = ""; // Limpa a lista antes de atualizar
 
-    comentariosSalvos.forEach((comentario, index) => {
+    comentariosTemporarios.forEach((comentario, index) => {
         const li = document.createElement("li");
         li.textContent = `${index + 1}. ${comentario}`;
         lista.appendChild(li);
     });
+}
+
+// Função para limpar a lista de comentários
+function limparComentarios(listaSelector) {
+    comentariosTemporarios = []; // Limpa o array de comentários temporários
+    const lista = document.querySelector(listaSelector);
+    lista.innerHTML = ""; // Limpa a exibição dos comentários
 }
 
 // Event Listener para buscar usuário

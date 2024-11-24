@@ -40,17 +40,31 @@ window.addEventListener("load", adjustSidebarHeight);
 
 // Barra Lateral - Fim 
 
+
+// Função para contar itens de cuidadores e idosos no sessionStorage
+const getCounts = () => {
+    const cuidadores = JSON.parse(sessionStorage.getItem('dbcuidadores')) ?? [];
+    const idosos = JSON.parse(sessionStorage.getItem('dbidosos')) ?? [];
+    return {
+        cuidadoresCount: cuidadores.length,
+        idososCount: idosos.length
+    };
+};
+
+// Obter as contagens
+const { cuidadoresCount, idososCount } = getCounts();
+
+// Gráfico Barra - Inicio
 const ctx = document.getElementById('barchart').getContext('2d');
 const ctx2 = document.getElementById('doughnut').getContext('2d');
 
-// Gráfico Barra - Inicio
 const barchart = new Chart(ctx, {
     type: 'bar',
     data: {
         labels: ['Idoso', 'Cuidadores'],
         datasets: [{
             label: 'Quantidade de Usuários',
-            data: [2, 5],
+            data: [idososCount, cuidadoresCount], // Atualizar com as contagens
             backgroundColor: [
                 'rgba(39, 174, 96, 0.2)',
                 'rgba(142, 68, 173, 0.2)'
@@ -74,14 +88,14 @@ const barchart = new Chart(ctx, {
 });
 // Gráfico Barra - Fim
 
-// Gráfico Circulo - Inicio
+// Gráfico Pizza - Inicio
 const doughnut = new Chart(ctx2, {
     type: 'doughnut',
     data: {
         labels: ['Idoso', 'Cuidadores'],
         datasets: [{
             label: 'Quantidade de Usuários',
-            data: [2, 5],
+            data: [idososCount, cuidadoresCount], // Atualizar com as contagens
             backgroundColor: [
                 'rgba(39, 174, 96, 0.2)',
                 'rgba(142, 68, 173, 0.2)'
@@ -103,4 +117,4 @@ const doughnut = new Chart(ctx2, {
         }
     }
 });
-// Gráfico Circulo - Fim
+// Gráfico Pizza - Fim

@@ -10,17 +10,23 @@ const btnSalvar = document.querySelector('#btnSalvar');
 let itens;
 let id;
 
-const resetLocalStorage = () => {
+// Função para inicializar o sessionStorage com idosos padrão
+const initializeSessionStorage = () => {
     const defaultData = [
         { nome: 'João Silva', idade: 75, status: 'Ativo' },
         { nome: 'Maria Oliveira', idade: 82, status: 'Inativo' },
         { nome: 'Carlos Pereira', idade: 68, status: 'Ativo' }
     ];
-    localStorage.setItem('dbidosos', JSON.stringify(defaultData));
+    sessionStorage.setItem('dbidosos', JSON.stringify(defaultData));
 };
 
-const getItensBD = () => JSON.parse(localStorage.getItem('dbidosos')) ?? [];
-const setItensBD = () => localStorage.setItem('dbidosos', JSON.stringify(itens));
+// Verificar se o sessionStorage está vazio e inicializar se necessário
+if (!sessionStorage.getItem('dbidosos')) {
+    initializeSessionStorage();
+}
+
+const getItensBD = () => JSON.parse(sessionStorage.getItem('dbidosos')) ?? [];
+const setItensBD = () => sessionStorage.setItem('dbidosos', JSON.stringify(itens));
 
 function loadItens() {
     itens = getItensBD();
@@ -30,7 +36,6 @@ function loadItens() {
     });
 }
 
-resetLocalStorage();
 loadItens();
 
 function insertItem(item, index) {
@@ -105,6 +110,5 @@ btnSalvar.onclick = e => {
     loadItens();
     id = undefined;
 };
-
 
 // Idosos - Fim

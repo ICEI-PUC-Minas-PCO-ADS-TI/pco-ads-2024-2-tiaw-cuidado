@@ -10,7 +10,8 @@ const btnSalvar = document.querySelector('#btnSalvar');
 let itens;
 let id;
 
-const resetLocalStorage = () => {
+// Função para inicializar o sessionStorage com cuidadores padrão
+const initializeSessionStorage = () => {
     const defaultData = [
         { nome: 'Ana Souza', especi: 'Enfermagem', status: 'Ativo' },
         { nome: 'Carlos Lima', especi: 'Fisioterapia', status: 'Inativo' },
@@ -18,11 +19,16 @@ const resetLocalStorage = () => {
         { nome: 'João Silva', especi: 'Psicologia', status: 'Ativo' },
         { nome: 'Fernanda Gomes', especi: 'Terapia Ocupacional', status: 'Inativo' }
     ];
-    localStorage.setItem('dbcuidadores', JSON.stringify(defaultData));
+    sessionStorage.setItem('dbcuidadores', JSON.stringify(defaultData));
 };
 
-const getItensBD = () => JSON.parse(localStorage.getItem('dbcuidadores')) ?? [];
-const setItensBD = () => localStorage.setItem('dbcuidadores', JSON.stringify(itens));
+// Verificar se o sessionStorage está vazio e inicializar se necessário
+if (!sessionStorage.getItem('dbcuidadores')) {
+    initializeSessionStorage();
+}
+
+const getItensBD = () => JSON.parse(sessionStorage.getItem('dbcuidadores')) ?? [];
+const setItensBD = () => sessionStorage.setItem('dbcuidadores', JSON.stringify(itens));
 
 function loadItens() {
     itens = getItensBD();
@@ -32,7 +38,6 @@ function loadItens() {
     });
 }
 
-resetLocalStorage();
 loadItens();
 
 function insertItem(item, index) {

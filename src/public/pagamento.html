@@ -1,12 +1,33 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/css/pagamento/stylepgt.css">
-    <title>Document</title>
+    <title>Formulário de Pagamento</title>
+    <link rel="stylesheet" href="./assets/css/pagamento/stylepgt.css">
 </head>
 <body>
-   <p>forma de pagamento</p> 
+    <div class="container">
+        <form id="payment-form">
+            <h2>Pagamento</h2>
+            <label for="name">Nome no Cartão</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="card-number">Número do Cartão</label>
+            <input type="text" id="card-number" name="card-number" required>
+            
+            <label for="expiry-date">Data de Validade</label>
+            <input type="text" id="expiry-date" name="expiry-date" placeholder="MM/AA" required>
+            
+            <label for="cvv">CVV</label>
+            <input type="text" id="cvv" name="cvv" required>
+
+            <label for="name">Valor</label>
+            <input type="text" id="Valor" name="name" required>
+            
+            <button type="submit">Pagar</button>
+        </form>
+    </div>
+    <script src="assets/js/pagamento.js"></script>
 </body>
 </html>

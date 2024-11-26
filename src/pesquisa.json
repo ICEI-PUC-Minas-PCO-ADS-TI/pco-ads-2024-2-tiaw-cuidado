@@ -1,6 +1,33 @@
 {
     "results": [
       { "query": "avaliações", "url": "http://127.0.0.1:5501/src/public/avalia%C3%A7oes.html" }
-    ]
+    ],
+
+    "usuarios": [
+    {
+      "nome": "Filomena da Silva",
+      "idade": 64,
+      "email": "",
+      "img": "assets/images/Filomena.png"
+    },
+    {
+      "nome": "Geraldo Rocha",
+      "idade": 71,
+      "email": "geraldo.rocha@gmail.com",
+      "img": "assets/images/Geraldo.png"
+      
+    },
+    {
+      "nome": "Cristina Ferraz",
+      "idade": 31,
+      "email": "cristinaferrazz@outlook.com",
+      "img": "assets/images/Cristina.png"
+      
+    }
+  ]
 }
+
+
+
+
   

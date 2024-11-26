@@ -1,17 +1,63 @@
 <!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html>
+<html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <p>
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem fugit amet minus   
-        reprehenderit sint magni, tempore ipsum laudantium, nam aut beatae rerum. Harum, obcaecati illo quas cum fuga beatae molestiae?
+    <link rel="stylesheet" href="/src/public/assets/css/avaliações.css">
+    <script src="/src/public/assets/js/avaliações.js" defer></script>
     
-    </p>
-     <h1>Resultado da Pesquisa</h1>
-     <p>Essa será a página de avaliações</p>
+    <title>Cuidado+</title>
+</head>
+
+<body>
+    <header>
+        <a href="/src/public/home.html"><img src="/src/public/assets/images/logo.png" alt="logo" class="logo"></a>
+        <nav class="search">
+            <form class="search-container">
+                <input type="text" class="search-box" placeholder="Pesquisar...">
+                <button class="search-button"><img src="/src/public/assets/images/search.png" alt="Pesquisar"></button>
+            </form>
+        </nav>
+        <a href="home.html" class="Início">Página Inicial</a>
+    </header>
+
+    <main>
+        
+
+        <section>
+            <h1 class="titulo">Avaliação de Usuários</h1>
+            <div class="ava">
+                <div class="Avaliações">
+                    <h2>Avalie ou veja as avaliações de um cliente ou profissional: </h2>
+                    <form class="search-container">
+                        <input type="text" class="avaliações-box" placeholder="Digite um nome">
+                        <button class="BotãoAvaliações">Pesquisar</button>
+                    </form>
+
+                    <div class="Usuario">
+                        <img class="FotoUsuário" src="assets/images/Usuário.png" alt="">
+                    </div>
+                    
+                <div class="main"><textarea id="comentários" placeholder="Comente aqui..."></textarea>
+                <button class="BotãoAvaliações">Confirmar</button>
+                </div>
+                <div class="comentarios-salvos">
+                    <h3>Comentários Salvos:</h3>
+                    <ul class="lista-comentarios"></ul>
+                </div>
+                        
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        &copy; 2024 Cuidado+. Todos os direitos reservados.
+    </footer>
+
 </body>
-</html> 
+
+</html>

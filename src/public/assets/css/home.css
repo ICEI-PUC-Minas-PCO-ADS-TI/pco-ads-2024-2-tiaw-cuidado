@@ -99,6 +99,20 @@ header a img {
     width: 800px;
 }
 
+.slide-text {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 1.7rem;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 20px;
+    text-align: center;
+    max-width: 90%;
+}
+
 .nav-manual {
     position: absolute;
     width: 800px;
@@ -123,15 +137,15 @@ header a img {
     background-color: white;
 }
 
-#radio1:checked ~ .primeiro {
+#radio1:checked~.primeiro {
     margin-left: 0;
 }
 
-#radio2:checked ~ .primeiro {
+#radio2:checked~.primeiro {
     margin-left: -25%;
 }
 
-#radio3:checked ~ .primeiro {
+#radio3:checked~.primeiro {
     margin-left: -50%;
 }
 
@@ -151,22 +165,21 @@ header a img {
     justify-content: center;
 }
 
-.nav-auto div:not(:last-child){
+.nav-auto div:not(:last-child) {
     margin-right: 20px;
 }
 
-#radio1:checked ~ .nav-auto .auto-btn1 {
+#radio1:checked~.nav-auto .auto-btn1 {
     background-color: white;
 }
 
-#radio2:checked ~ .nav-auto .auto-btn2 {
+#radio2:checked~.nav-auto .auto-btn2 {
     background-color: white;
 }
 
-#radio3:checked ~ .nav-auto .auto-btn3 {
+#radio3:checked~.nav-auto .auto-btn3 {
     background-color: white;
 }
-
 /* Slides - Fim */
 
 
@@ -177,6 +190,11 @@ section .titulo {
     margin: 1% 3% 1% 3%;
     border-bottom: 3px solid black;
     padding: 10px;
+    color: black;
+}
+
+section a {
+    text-decoration: none;
 }
 
 /* Linha Titulos - Fim */
@@ -223,6 +241,8 @@ section .info-button button {
 
 /* InfoAluno - Fim */
 
+
+
 /* Avaliações - Inicio */
 
 section .ava {
@@ -249,11 +269,6 @@ section .avaliações p {
 
 
 
-
-
-
-
-
 /* Rodapé - Inicio */
 footer {
     text-align: center;
@@ -263,6 +278,7 @@ footer {
     color: white;
     padding: 10px;
 }
+
 /* Rodapé - Fim */
 
 
@@ -304,18 +320,24 @@ footer {
     }
 
     .slider-content {
-        width: 400vw; 
+        width: 400vw;
     }
 
     .slide-box {
-        width: 100vw; 
+        width: 100vw;
     }
 
     .slide-box img {
         width: 100%;
         height: 100%;
-        max-height: 250px; 
+        max-height: 250px;
         object-fit: cover;
+    }
+    
+    .slide-text {
+        top: 10%;
+        left: 40%;
+        font-size: 1.1rem;
     }
 
     .nav-manual,
@@ -323,6 +345,7 @@ footer {
         width: 80%;
         margin-top: 160px;
     }
+
     /* Slides - Fim */
 
 
@@ -350,6 +373,7 @@ footer {
     footer {
         width: 100%;
     }
+
     /* Rodapé - Fim */
 }
 

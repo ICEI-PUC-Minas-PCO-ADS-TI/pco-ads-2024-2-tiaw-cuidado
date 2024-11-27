@@ -176,5 +176,10 @@ O projeto está restrito aos itens apresentados na tabela a seguir.
 
 |ID| Restrição                                             |
 |--|-------------------------------------------------------|
-|001| O projeto deverá ser entregue até o final do semestre ⚠️ EXEMPLO ⚠️ |
-|002| Não é permitido o desenvolvimento de um módulo de back-end  ⚠️ EXEMPLO ⚠️  |
+|001| O prazo de entrega será até o dia 8 de Dezembro. | 
+|002| A apresentação do projeto será dia 10 de Dezembro. |
+|003| Bootstrap só poderá ser utilizado sob consulta e não será considerado requisito de entrega.  |
+|004| Não será permitido utilizar back-end no projeto.  |
+
+
+

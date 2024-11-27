@@ -1,17 +1,15 @@
 [
   {
-      "image": "imagens/slide1.jpeg",
+      "image": "src/public/assets/images/slide1.jpg",
       "link": "teste.html",
       "text": "Contratação de Serviços"
   },
   {
-      "image": "imagens/slide2.jpeg",
-      "link": "teste.html",
+      "image": "src/public/assets/images/slide2.jpg",
       "text": "Tutoriais"
   },
   {
-      "image": "imagens/slide3.jpeg",
-      "link": "teste.html",
+      "image": "src/public/assets/images/slide3.jpg",
       "text": "Alertas contra Golpes"
   }
 ]

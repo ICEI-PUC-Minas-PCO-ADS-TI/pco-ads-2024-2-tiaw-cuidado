@@ -1,6 +1,6 @@
 /* Slides - Inicio */
 async function fetchSlides() {
-  const response = await fetch('slides.json');
+  const response = await fetch('src\slides.json');
   const slides = await response.json();
   applySlides(slides);
 }

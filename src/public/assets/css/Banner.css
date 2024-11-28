@@ -148,3 +148,84 @@ h1 {
 }
 
 /*Banner fim */
+
+/* Linha Titulos - Inicio */
+section .titulo {
+    font-size: 2.3rem;
+    margin: 1% 3% 1% 3%;
+    border-bottom: 3px solid black;
+    padding: 10px;
+    color: black;
+}
+
+section a {
+    text-decoration: none;
+}
+
+/* Linha Titulos - Fim */
+
+/* InfoAluno - Inicio */
+section .info {
+    display: flex;
+    justify-content: center;
+    margin: 0% 4% 0% 4%;
+}
+
+section .info h2 {
+    color: #0095ff;
+    font-weight: bold;
+}
+
+section .informativos {
+    flex: 1;
+    margin-right: 3%;
+}
+
+section .informativos p {
+    font-size: 1.2rem;
+}
+
+section .info-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 10%;
+}
+
+section .info-button button {
+    background: #92A8D1;
+    font-size: 1.7rem;
+    font-weight: bolder;
+    border: 2px black solid;
+    border-radius: 20px;
+    margin-bottom: 5%;
+    padding: 15px;
+}
+
+/* InfoAluno - Fim */
+
+
+
+/* Avaliações - Inicio */
+
+section .ava {
+    display: flex inline-block;
+    justify-content: center;
+    margin: 0% 4% 0% 4%;
+}
+
+section .ava h2 {
+    color: #0095ff;
+    font-weight: bold;
+}
+
+section .avaliações {
+    flex: 1;
+    margin-right: 3%;
+}
+
+section .avaliações p {
+    font-size: 1.2rem;
+}
+
+/* Avaliações - Fim */

@@ -49,7 +49,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     if (query) {
 
-      fetch("/src/pesquisa.json")
+      fetch("/src/db/pesquisa.json")
         .then((response) => {
           if (!response.ok) throw new Error("Erro ao carregar o JSON");
           return response.json();

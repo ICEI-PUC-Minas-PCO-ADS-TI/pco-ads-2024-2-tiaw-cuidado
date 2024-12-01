@@ -82,11 +82,18 @@ main {
 
     .chart-container {
         flex-direction: column;
+        gap: 20px;
         margin-left: 3%;
         margin-right: 3%;
     }
 
     .chartBar, .chartPizza {
         width: 100%;
+    }
+}
+
+@media (max-width: 400px) {
+    .chartBar, .chartPizza {
+        height: 300px;
     }
 }

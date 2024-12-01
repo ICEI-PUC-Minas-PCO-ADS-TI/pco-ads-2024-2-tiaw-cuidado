@@ -219,46 +219,130 @@ button {
 
 /* Responsividade - Inicio */
 
-
 @media (max-width: 1024px) {
+  main {
+      margin-top: 100px;
+      margin-left: 0;
+  }
 
-    main { 
-        margin-top: 100px;
-        margin-left: 0;
-    }
+  body {
+      font-size: 18px;
+  }
 
-    body {
-        font-size: 18px;
-      }
-      
-      .header span {
-        font-size: 20px;
-      }
-    
-      #new {
-        padding: 5px;
-        font-size: 15px;
-      }
-    
-      thead tr th.acao {
-        width: auto!important;
-      }
-      
-      td button i {
-        font-size: 20px!important;
-      }
-    
-      td button i:first-child {
-        margin-right: 0;
-      }
-    
-      .modal {
-        width: 90%!important;
-      }
-    
-      .modal label {
-        font-size: 12px!important;
-      }
-    }
-    
+  .header span {
+      font-size: 18px;
+      word-break: break-word;
+      white-space: normal; 
+  }
+
+  #new {
+      padding: 5px;
+      font-size: 15px;
+  }
+
+  thead tr th.acao {
+      width: auto!important;
+  }
+
+  td button i {
+      font-size: 20px!important;
+  }
+
+  td button i:first-child {
+      margin-right: 0;
+  }
+
+  .modal {
+      width: 90%!important;
+  }
+
+  .modal label {
+      font-size: 12px!important;
+  }
+}
+
+@media (max-width: 768px) {
+  body {
+      font-size: 16px;
+  }
+
+  .header span {
+      font-size: 16px;
+  }
+
+  #new {
+      padding: 5px;
+      font-size: 14px;
+  }
+
+  table {
+      font-size: 14px; 
+  }
+
+  .modal {
+      width: 95%;
+      padding: 20px;
+  }
+
+  .modal label {
+      font-size: 12px;
+  }
+
+  .modal input, .modal select {
+      padding: 8px;
+  }
+
+  td button i {
+      font-size: 18px!important;
+  }
+
+  td button i:first-child {
+      margin-right: 5px;
+  }
+}
+
+@media (max-width: 480px) {
+  body {
+      font-size: 14px;
+  }
+
+  .header span {
+      font-size: 14px;
+  }
+
+  #new {
+      padding: 4px;
+      font-size: 12px;
+  }
+
+  .container {
+      padding: 10px;
+      width: 100%;
+  }
+
+  table {
+      font-size: 12px;
+  }
+
+  .modal {
+      width: 90%;
+      padding: 15px;
+  }
+
+  .modal label {
+      font-size: 10px;
+  }
+
+  .modal input, .modal select {
+      padding: 6px;
+  }
+
+  td button i {
+      font-size: 16px!important;
+  }
+
+  td button i:first-child {
+      margin-right: 3px;
+  }
+}
 /* Responsividade - Fim */

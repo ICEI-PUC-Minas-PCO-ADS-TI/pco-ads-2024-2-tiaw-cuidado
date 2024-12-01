@@ -4,10 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/src/public/assets/css/sidebar.css">
-    <link rel="stylesheet" href="/src/public/assets/css/ido-cuid.css">
-    <script src="/src/public/assets/js/admin.js" defer></script>
-    <script src="/src/public/assets/js/idosos.js" defer></script>
+    <link rel="stylesheet" href="/src/public/assets/css/admin/sidebar.css">
+    <link rel="stylesheet" href="/src/public/assets/css/admin/admin.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.js" defer></script>
+    <script src="/src/public/assets/js/admin/admin.js" defer></script>
     <title>Painel Administrador - Cuidado+</title>
 </head>
 
@@ -15,7 +15,7 @@
     <!-- Barra Lateral -->
     <aside class="sidebar">
         <header class="sidebar-header">
-            <a href="#" class="header-logo">
+            <a href="home.html" class="header-logo">
                 <img src="/src/public/assets/images/logo.png" alt="logo">
             </a>
             <button class="toggler sidebar-toggler">
@@ -68,47 +68,22 @@
     <!-- Main -->
     <main>
         <div class="container">
+            
             <div class="header">
-                <span>Idosos</span>
-                <button onclick="openModal()" id="new">Adicionar</i></button>
+                <span>Visão Geral</span>
             </div>
 
-
-            <div class="divTable">
-                <table>
-                    <thead>
-                        <tr>
-                            <th>Nome</th>
-                            <th>Idade</th>
-                            <th>Status</th>
-                            <th class="acao">Editar</th>
-                            <th class="acao">Remover</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                    </tbody>
-                </table>
-            </div>
-
-            <div class="modal-container">
-                <div class="modal">
-                    <form>
-                        <label for="m-nome">Nome</label>
-                        <input id="m-nome" type="text" required>
-
-                        <label for="m-idade">Idade</label>
-                        <input id="m-idade" type="number" required>
-
-                        <label for="m-status">Status</label>
-                        <select id="m-status" required>
-                            <option value="Ativo">Ativo</option>
-                            <option value="Inativo">Inativo</option>
-                        </select>
-                        <button id="btnSalvar">Salvar</button>
-                    </form>
+            <div class="chart-container">
+                <div class="chartBar">
+                    <canvas id="barchart"></canvas>
+                </div>
+                <div class="chartPizza">
+                    <canvas id="doughnut"></canvas>
                 </div>
             </div>
+
         </div>
     </main>
 </body>
+
 </html>

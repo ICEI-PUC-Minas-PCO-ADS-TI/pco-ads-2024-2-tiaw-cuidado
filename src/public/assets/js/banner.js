@@ -1,7 +1,7 @@
 /* Função para alterar a imagem do banner ao carregar a página */
 window.onload = function() {
     // Carregar as imagens do arquivo JSON
-    fetch('/src/imagensBanner.json')
+    fetch('/src/db/imagensBanner.json')
         .then(response => response.json()) /* Converte o arquivo JSON em um objeto JavaScript */
         .then(data => {
         /* Escolher uma imagem aleatória */

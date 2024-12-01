@@ -14,7 +14,7 @@ body {
         /*Cabeçalho inicio */
 header {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     background-color: #92A8D1;
     padding: 10px 20px;
@@ -22,8 +22,8 @@ header {
 }
 
 .logo {
-    max-width: 50px;
-    margin-right: 15px;
+    height: 100px;
+    width: 100px;
 }
 
 h1 {

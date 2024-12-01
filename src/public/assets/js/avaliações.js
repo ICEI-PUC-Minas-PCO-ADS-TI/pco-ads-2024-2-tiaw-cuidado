@@ -1,7 +1,7 @@
 // 1º Etapa: Carregar os dados do JSON
 async function carregarUsuarios() {
     try {
-        const resposta = await fetch('/src/pesquisa.json'); // Caminho para o JSON
+        const resposta = await fetch('/src/db/users.json'); // Caminho para o JSON
         const dados = await resposta.json();
         return dados.usuarios; // Retorna a lista de usuários
     } catch (error) {

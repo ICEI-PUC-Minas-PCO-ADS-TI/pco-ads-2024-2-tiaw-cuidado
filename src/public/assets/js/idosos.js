@@ -90,12 +90,29 @@ function openModal(edit = false, index = 0) {
 }
 
 btnSalvar.onclick = e => {
-    if (sNome.value == '' || sIdade.value == '' || sStatus.value == '') {
+    e.preventDefault();
+
+    // Verificar se os campos estão preenchidos
+    if (sNome.value.trim() === '' || sIdade.value.trim() === '' || sStatus.value.trim() === '') {
+        alert('Todos os campos devem ser preenchidos.');
         return;
     }
 
-    e.preventDefault();
+    // Verificar se a idade é um número positivo
+    const idade = parseInt(sIdade.value, 10);
+    if (isNaN(idade) || idade < 18 || idade > 120) {
+        alert('A idade deve estar entre 18 e 120 anos.');
+        return;
+    }
 
+    // Verificar se o nome contém apenas letras e espaços
+    const nomeRegex = /^[a-zA-ZÀ-ÿ\s]+$/;
+    if (!nomeRegex.test(sNome.value)) {
+        alert('O nome deve conter apenas letras e espaços.');
+        return;
+    }
+
+    // Editar ou adicionar o novo item
     if (id !== undefined) {
         itens[id].nome = sNome.value;
         itens[id].idade = sIdade.value;

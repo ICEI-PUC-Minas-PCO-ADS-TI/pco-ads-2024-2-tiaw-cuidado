@@ -92,11 +92,24 @@ function openModal(edit = false, index = 0) {
 }
 
 btnSalvar.onclick = e => {
+    e.preventDefault();
+
     if (sNome.value == '' || sEspeci.value == '' || sStatus.value == '') {
+        alert('Todos os campos devem ser preenchidos.');
         return;
     }
 
-    e.preventDefault();
+    // Verificar se o nome contém apenas letras e espaços
+    const nomeEspeciRegex = /^[a-zA-ZÀ-ÿ\s]+$/;
+    if (!nomeEspeciRegex.test(sNome.value)) {
+        alert('O nome deve conter apenas letras e espaços.');
+        return;
+    }
+
+    if (!nomeEspeciRegex.test(sEspeci.value)) {
+        alert('A especialização deve conter apenas letras e espaços.');
+        return;
+    }
 
     if (id !== undefined) {
         itens[id].nome = sNome.value;

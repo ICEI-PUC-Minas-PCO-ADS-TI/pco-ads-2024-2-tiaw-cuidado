@@ -167,90 +167,89 @@ footer {
 }
 /* Rodapé - Fim */
 
-/* Responsividade - Inicio */
-@media screen and (max-width: 767px) {
-
-    /* Cabeçalho - Inicio */
-    header {
-        flex-direction: row;
-        align-items: center;
-        width: 100%;
-    }
-
-    header .search-container {
-        width: 100%;
-    }
-
-    header .search-box {
-        width: 100%;
-    }
-
-    header .login-link {
-        margin-left: 15px;
-    }
-
-    header .logo {
-        margin-right: 15px;
-    }
-
-    /* Cabeçalho - Fim */
-
-
-
-    /* Slides - Inicio */
-    .slider {
-        width: 80%;
-        height: 200px;
-    }
-
-    .slider-content {
-        width: 400vw; 
-    }
-
-    .slide-box {
-        width: 100vw; 
-    }
-
-    .slide-box img {
-        width: 100%;
-        height: 100%;
-        max-height: 250px; 
-        object-fit: cover;
-    }
-
-    .nav-manual,
-    .nav-auto {
-        width: 80%;
-        margin-top: 160px;
-    }
-    /* Slides - Fim */
-
-
-
-
-    /* Informativos - Inicio */
-    section .container {
-        padding: 0% 10% 0% 0%;
-    }
-
-    section .info {
-        flex-direction: column;
-    }
-
-    section .sobre {
-        margin-right: 0;
-        margin-bottom: 20px;
-    }
-
-    /* Informativos - Fim */
-
-
-
-    /* Rodapé - Inicio */
-    footer {
-        width: 100%;
-    }
-    /* Rodapé - Fim */
+/* Responsividade - Inicio */ 
+@media screen and (max-width: 767px) { 
+    
+    /* Cabeçalho - Inicio */ 
+    
+header { 
+    flex-direction: column; 
+    align-items: flex-start; 
+    padding: 1%; 
+} 
+    
+header .search-container { 
+    width: 100%; 
+    margin-top: 10px; 
+} 
+    
+header .search-box { 
+    width: calc(100% - 30px); 
 }
+    
+header a img { 
+    height: 80px; 
+    width: 80px; 
+    } 
+        
+ header .Início { 
+    margin-top: 10px; 
+    font-size: 1.2rem; 
+    } 
+        
+/* Cabeçalho - Fim */ 
+        
+/* Linha Titulos - Inicio */ 
+        
+section .titulo {
+    font-size: 2rem; 
+    text-align: center; 
+} 
+            
+/* Linha Titulos - Fim */
 
+/* Avaliações - Inicio */ 
+             
+section .ava { 
+    flex-direction: column; 
+    margin: 0 2%; 
+            
+    } 
+            
+.main {
+    margin-left: 0; 
+    margin-top: 20px; 
+            
+} 
+    
+    
+.BotãoAvaliações { 
+                
+    width: 100%; 
+            
+} 
+
+#comentários { 
+    width: 100%; 
+} 
+            
+.avaliações-box { 
+                
+    width: 100%; 
+} 
+            
+/* Avaliações - Fim */
+            
+            
+/* Rodapé - Inicio */
+              
+            
+footer { 
+    padding: 15px;
+} 
+             
+/* Rodapé - Fim */ 
+            
+} 
+           
 /* Responsividade - Fim */

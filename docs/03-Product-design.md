@@ -12,7 +12,7 @@ Neste momento, transformam-se os insights e validações obtidos em soluções t
 
 Com base na análise das personas, foram identificadas as seguintes histórias de usuários:
 
-EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
+EU COMO... `FILHO`| QUERO/PRECISO ... `UM CUIDADOR` |PARA ... `PARA AJUDAR MINHA MÃE A MEXER NO UBER/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
 |Filho |  Quero alguem que ajude minha mãe a mexer no uber       | Porque não estou sempre por perto e não tenho tempo suficiente para ensiná-la com paciência.              |
 

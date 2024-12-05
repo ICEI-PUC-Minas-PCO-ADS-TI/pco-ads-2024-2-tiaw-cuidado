@@ -121,6 +121,22 @@ h1 {
     max-width: 100%; 
 }
 
+/* Filtro - Início */
+
+.filter-container {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    margin: 20px 0;
+    align-self: flex-start; /* Alinha à esquerda */
+}
+
+.filter-container input,
+.filter-container select {
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
 
 @media (max-width: 1024px) {
     .banner h1 {

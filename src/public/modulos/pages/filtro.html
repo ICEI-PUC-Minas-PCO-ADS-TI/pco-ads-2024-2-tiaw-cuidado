@@ -1,11 +1,102 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="/src/public/assets/css/Banner.css">
+   
 </head>
 <body>
-    <a href="serviço.html">Postagem de serviço</a>
+  <header>
+    <a href="home.html"><img src="/src/public/assets/images/logo.png"  alt="Logo" class="logo"></a>
+    <h1>Profissionais Disponíveis</h1>
+   
+</header>
+
+<aside>
+    <div class="filter-container">
+        <input type="text" id="searchInput" placeholder="Filtrar pesquisa...">
+        <select id="categorySelect">
+            <option value="all">Menos de 1 dia</option>
+            <option value="categoria1">1 a 3 dias</option>
+            <option value="categoria1">4 a 6 dias</option>
+            <option value="categoria2">7 dias ou mais</option>
+        </select>
+    </div>
+</aside>
+
+
+<main>
+  <div class="grid">
+        <div class="card">
+            <img src="/src/public/assets/images/Cristina.png" alt="Foto 1" class="card-image">
+            <h2>Cristina Ferraz</h2>
+            <p>Cuidadora de Idosos</p>
+            <p><strong>Valor:</strong> R$ 100,00</p>
+            <p><strong>Data:</strong> 27/10/2024</p>
+            <div class="button-container">
+                <a href="serviço.html" class="btn">Contratar</a>
+                
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="perfil2.jpg" alt="Foto 2" class="card-image">
+            <h2>Geraldo</h2>
+            <p>Serviço: Ajudar a carregar compras</p>
+            <p><strong>Valor:</strong> R$ 85,00</p>
+            <p><strong>Data:</strong> 28/10/2024</p>
+            <div class="button-container">
+                <a href="serviço.html" class="btn">Contratar</a>
+                
+            </div>
+        </div>
+        
+        
+        <div class="card">
+            <img src="perfil3.jpg" alt="Foto 3" class="card-image">
+            <h2>Arnaldo</h2>
+            <p>Serviço: Acompanhamento no posto</p>
+            <p><strong>Valor:</strong> R$ 85,00</p>
+            <p><strong>Data:</strong> 29/10/2024</p>
+            <div class="button-container">
+                <a href="serviço.html" class="btn">Contratar</a>
+                
+            </div>
+        </div>
+        
+        
+        <div class="card">
+            <img src="perfil4.jpg" alt="Foto 4" class="card-image">
+            <h2>Maria Oliveira</h2>
+            <p>Serviço: Passeio no parque</p>
+            <p><strong>Valor:</strong> R$ 70,00</p>
+            <p><strong>Data:</strong> 30/10/2024</p>
+            <div class="button-container">
+                <a href="serviço.html" class="btn">Contratar</a>
+                
+            </div>
+        </div>
+        
+        
+        <div class="card">
+            <img src="perfil5.jpg" alt="Foto 5" class="card-image">
+            <h2>Carlos Souza</h2>
+            <p>Serviço: Organizar armário</p>
+            <p><strong>Valor:</strong> R$ 90,00</p>
+            <p><strong>Data:</strong> 31/10/2024</p>
+            <div class="button-container">
+                <a href="serviço.html" class="btn">Contratar</a>
+                
+            </div>
+        </div>
+        </div>
+</main>
+
+<footer class="footer">
+    © 2024 Cuidado+. Todos os direitos reservados.
+</footer>
+<script src="filtro.js"></script>
 </body>
 </html>

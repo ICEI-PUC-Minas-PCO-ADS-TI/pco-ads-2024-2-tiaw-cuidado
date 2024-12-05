@@ -1,25 +1,33 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Formulário de Pagamento</title>
+    <link rel="stylesheet" href="/src/public/assets/css/pagamento.css">
 </head>
 <body>
-    <header>
-        <a href="home.html"><img src="/src/public/assets/images/logo.png" alt="logo" class="logo"></a>
-        <nav class="search">
-            <form class="search-container">
-                <input type="text" class="search-box" placeholder="Pesquisar...">
-                <button class="search-button"><img src="/src/public/assets/images/search.png" alt="Pesquisar"></button>
-            </form>
-        </nav>
-        <a href="home.html" class="Início">Página Inicial</a>
-    </header>
-    <h1>Formas de Pagamento</h1>
+    <div class="container">
+        <form id="payment-form">
+            <h2>Pagamento</h2>
+            <label for="name">Nome no Cartão</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="card-number">Número do Cartão</label>
+            <input type="text" id="card-number" name="card-number" required>
+            
+            <label for="expiry-date">Data de Validade</label>
+            <input type="text" id="expiry-date" name="expiry-date" placeholder="MM/AA" required>
+            
+            <label for="cvv">CVV</label>
+            <input type="text" id="cvv" name="cvv" required>
 
-    <footer>
-        &copy; 2024 Cuidado+. Todos os direitos reservados.
-    </footer>
+            <label for="name">Valor</label>
+            <input type="text" id="Valor" name="name" required>
+            
+            <button type="submit">Pagar</button>
+        </form>
+    </div>
+    <script src="/src/public/assets/js/pagamento.js"></script>
 </body>
 </html>

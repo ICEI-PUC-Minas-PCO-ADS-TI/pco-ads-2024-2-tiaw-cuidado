@@ -1,0 +1,99 @@
+@font-face {
+    font-family: Poppins;
+    src: url(/src/public/assets/fonts/Poppins-Regular.ttf) format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins;
+}
+
+body {
+    min-height: 100vh;
+    background: #F0F0F0;
+}
+
+/* Main - Inicio */
+
+main {
+    flex: 1;
+    padding: 20px;
+    margin-left: 286px;
+    transition: margin-left 0.4s ease;
+}
+
+.sidebar.collapsed ~ main {
+    margin-left: 101px;
+}
+
+.container {
+    width: 100%;
+    height: 95%;
+    border-radius: 10px;
+    background: white;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+    padding: 1% 0% 10% 0%;
+}
+
+.header {
+    margin-left: 3%;
+    margin-bottom: 2%;
+}
+
+.header span {
+    font-weight: 900;
+    font-size: 25px;
+}
+
+.chart-container {
+    display: flex;
+    justify-content: center;
+    gap: 3%
+}
+
+.chartBar {
+    margin-bottom: 3%;
+}
+
+.chartBar, .chartPizza {
+    padding: 15px;
+    border: 1px solid black;
+    border-radius: 8px;
+    background: whitesmoke;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.3);
+    width: 40%;
+    height: 400px;
+}
+
+@media (max-width: 1024px) {
+
+    main { 
+        margin-top: 100px;
+        margin-left: 0;
+    }
+
+    .container {
+        height: 100%;
+    }
+
+    .chart-container {
+        flex-direction: column;
+        gap: 20px;
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+
+    .chartBar, .chartPizza {
+        width: 100%;
+    }
+}
+
+@media (max-width: 400px) {
+    .chartBar, .chartPizza {
+        height: 300px;
+    }
+}

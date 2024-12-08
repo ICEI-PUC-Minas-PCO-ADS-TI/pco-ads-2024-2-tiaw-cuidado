@@ -1,0 +1,11 @@
+{
+    "results": [
+      { "query": "avaliações", "url": "http://127.0.0.1:5502/src/public/modulos/pages/avaliaçoes.html" },
+      { "query": "tutoriais", "url": "http://127.0.0.1:5502/src/public/modulos/pages/Banner.html" },
+      { "query": "cuidadores", "url": "http://127.0.0.1:5502/src/public/modulos/pages/filtro.html" },
+      { "query": "serviços", "url": "http://127.0.0.1:5502/src/public/modulos/pages/profissional.html" },
+      { "query": "golpes digitais", "url": "http://127.0.0.1:5502/src/public/modulos/pages/tutoriais.html" },
+      { "query": "tutoriais contra golpes digitais", "url": "http://127.0.0.1:5502/src/public/modulos/pages/tutoriais.html" }
+    ]
+}
+  

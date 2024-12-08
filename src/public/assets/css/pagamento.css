@@ -1,0 +1,132 @@
+@font-face {
+    font-family: Poppins;
+    src: url(/src/public/assets/fonts/Poppins-Regular.ttf) format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* Cabeçalho - Inicio */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #92A8D1;
+    padding-left: 1%;
+    padding-right: 3%;
+}
+
+header .search-container {
+    display: flex;
+    background: #d3d3d3;
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 0.7%;
+}
+
+header .search-box {
+    color: #6f6f6f;
+    text-align: right;
+    font-size: 1.4rem;
+    border: none;
+    background: none;
+    width: 400px;
+}
+
+header .search-button {
+    cursor: pointer;
+    background: none;
+    border: none;
+    margin-left: 3%;
+}
+
+header .search-box:focus {
+    outline: none;
+}
+
+header .search-box:focus::placeholder {
+    color: transparent;
+}
+
+
+
+header button img {
+    width: 25px;
+    height: auto;
+}
+
+header a img {
+    height: 100px;
+    width: 100px;
+}
+
+/* Cabeçalho - Fim */
+
+.Início{
+    text-decoration: none;
+    color: black;
+    font-size: 1.4rem;
+    font-weight: bold;
+
+}
+
+body {
+    margin-left: 0;
+    padding: 0;
+    font-family: Poppins;
+    background: #F0F0F0;
+}
+
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+/* Rodapé - Inicio */
+footer {
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+    background: #92A8D1;
+    color: white;
+    padding: 10px;
+}
+/* Rodapé - Fim */

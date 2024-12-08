@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/src/public/assets/css/postagem.css">
+    <script src="/src/public/assets/js/postagem.js" defer></script>
+</head>
+<body>
+    <header>
+        <a href="home.html"><img src="/src/public/assets/images/logo.png" alt="logo" class="logo"></a>
+       
+        <a href="home.html" class="Início">Página Inicial</a>
+    </header>
+
+    <h1>Cadastro de Serviços</h1>
+    
+    <h2>DADOS</h2>
+    <div class="form-group">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required>
+    </div>
+    <div class="form-group">
+        <label for="idade">Idade:</label>
+        <input type="number" id="idade" name="idade" required>
+    </div>
+    <div class="form-group">
+        <label for="sexo">Sexo:</label>
+        <select id="sexo" name="sexo" required>
+            <option value="masculino">Masculino</option>
+            <option value="feminino">Feminino</option>
+            <option value="outro">Outro</option>
+        </select>
+    </div>
+    
+    <h2>ENDEREÇO</h2>
+    <div class="form-group">
+        <label for="rua">Rua:</label>
+        <input type="text" id="rua" name="rua" required>
+    </div>
+    <div class="form-group">
+        <label for="cidade">Cidade:</label>
+        <input type="text" id="cidade" name="cidade" required>
+    </div>
+    <div class="form-group">
+        <label for="bairro">Bairro:</label>
+        <input type="text" id="bairro" name="bairro" required>
+    </div>
+    <div class="form-group">
+        <label for="estado">Estado:</label>
+        <input type="text" id="estado" name="estado" required>
+    </div>
+    <div class="form-group">
+        <label for="cep">CEP:</label>
+        <input type="text" id="cep" name="cep" required>
+    </div>
+    <div class="form-group">
+        <label for="complemento">Complemento:</label>
+        <input type="text" id="complemento" name="complemento">
+    </div>
+    
+    <h2>SERVIÇO</h2>
+    <div class="form-group">
+        <label for="descricao">Descrição do Serviço:</label>
+        <textarea id="descricao" name="descricao" required></textarea>
+    </div>
+    <div class="form-group">
+        <label for="horario">Horário do Serviço:</label>
+        <input type="text" id="horario" name="horario" required>
+    </div>
+    
+    <button type="submit"><a href="pagamento.html" class="Início">Cadastrar</a></button>
+
+
+    <footer>
+        &copy; 2024 Cuidado+. Todos os direitos reservados.
+    </footer>
+</body>
+</html>

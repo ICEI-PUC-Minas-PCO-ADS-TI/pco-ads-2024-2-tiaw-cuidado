@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/src/public/assets/css/admin/sidebar.css">
+    <link rel="stylesheet" href="/src/public/assets/css/admin/admin.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.js" defer></script>
+    <script src="/src/public/assets/js/admin/admin.js" defer></script>
+    <title>Painel Administrador - Cuidado+</title>
+</head>
+
+<body>
+    <!-- Barra Lateral -->
+    <aside class="sidebar">
+        <header class="sidebar-header">
+            <a href="home.html" class="header-logo">
+                <img src="/src/public/assets/images/logo.png" alt="logo">
+            </a>
+            <button class="toggler sidebar-toggler">
+                <img class="nav-icon" src="/src/public/assets/images/admin-images/chevron-left.png" alt="arrow left">
+            </button>
+            <button class="toggler menu-toggler">
+                <img class="nav-icon" src="/src/public/assets/images/admin-images/menu.png" alt="menu">
+            </button>
+        </header>
+
+        <nav class="sidebar-nav">
+            <ul class="nav-list primary-nav">
+                <li class="nav-item">
+                    <a href="admin.html" class="nav-link">
+                        <img class="nav-icon" src="/src/public/assets/images/admin-images/dashboard.png"
+                            alt="visão geral">
+                        <span class="nav-label">Visão Geral</span>
+                    </a>
+                    <span class="nav-tooltip">Visão Geral</span>
+                </li>
+                <li class="nav-item">
+                    <a href="idosos.html" class="nav-link">
+                        <img class="nav-icon" src="/src/public/assets/images/admin-images/idosos.png" alt="idosos">
+                        <span class="nav-label">Idosos</span>
+                    </a>
+                    <span class="nav-tooltip">Idosos</span>
+                </li>
+                <li class="nav-item">
+                    <a href="cuidadores.html" class="nav-link">
+                        <img class="nav-icon" src="/src/public/assets/images/admin-images/cuidador.png"
+                            alt="cuidadores">
+                        <span class="nav-label">Cuidadores</span>
+                    </a>
+                    <span class="nav-tooltip">Cuidadores</span>
+                </li>
+            </ul>
+
+            <ul class="nav-list secondary-nav">
+                <li class="nav-item">
+                    <a href="#" class="nav-link">
+                        <img class="nav-icon" src="/src/public/assets/images/admin-images/logout.png" alt="sair">
+                        <span class="nav-label">Sair</span>
+                    </a>
+                    <span class="nav-tooltip">Sair</span>
+                </li>
+            </ul>
+        </nav>
+    </aside>
+
+    <!-- Main -->
+    <main>
+        <div class="container">
+            
+            <div class="header">
+                <span>Visão Geral</span>
+            </div>
+
+            <div class="chart-container">
+                <div class="chartBar">
+                    <canvas id="barchart"></canvas>
+                </div>
+                <div class="chartPizza">
+                    <canvas id="doughnut"></canvas>
+                </div>
+            </div>
+
+        </div>
+    </main>
+</body>
+
+</html>

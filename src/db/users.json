@@ -1,0 +1,22 @@
+{
+  "usuarios": [
+    {
+      "nome": "Filomena da Silva",
+      "idade": 64,
+      "email": "",
+      "img": "/src/public/assets/images/Filomena.png" 
+    },
+    {
+      "nome": "Geraldo Rocha",
+      "idade": 71,
+      "email": "geraldo.rocha@gmail.com",
+      "img": "/src/public/assets/images/Geraldo.png"
+    },
+    {
+      "nome": "Cristina Ferraz",
+      "idade": 31,
+      "email": "cristinaferrazz@outlook.com",
+      "img": "/src/public/assets/images/Cristina.png"
+    }
+  ]
+}

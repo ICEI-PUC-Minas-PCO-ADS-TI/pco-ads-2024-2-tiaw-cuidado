@@ -55,7 +55,7 @@
     border: 2px solid #dfdfdf;
   }
   
-  .form-content a{
+  .form-content .msg-erro {
     position: absolute;
     bottom: -8px;
     left: 0;
@@ -73,7 +73,7 @@
     cursor: pointer;
     margin-top: 14px;
   }
-  
+
   .form-content.error input{
     border-color: #ff3b25;
   }

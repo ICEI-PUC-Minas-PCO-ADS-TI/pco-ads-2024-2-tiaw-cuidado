@@ -8,13 +8,13 @@ Para cada caso de teste definido no <a href="08-Plano-testes-software.md"> Plano
 
 | **Caso de teste** 	| **CT-001 – Cadastrar perfil** 	|
 |:---:	|:---:	|
-| Requisito associado | RF-00X - A aplicação deve apresentar, na página principal, a funcionalidade de cadastro de usuários para que esses consigam criar e gerenciar seu perfil. |
-| Registro de evidência | [www.teste.com.br/drive/ct-01](http://www.teste.com.br/drive/ct-01) |
+| Requisito associado | RF-00X - Permitir que o usuario cadastre seus dados sendo cuidador ou idoso. |
+| Registro de evidência | [teste-feito-atraves-do-developer] |
 
 | **Caso de teste** 	| **CT-002 – Realizar login** 	|
 |:---:	|:---:	|
 | Requisito associado | RF-00Y - A aplicação deve permitir que um usuário previamente cadastrado faça login. |
-| Registro de evidência | [www.teste.com.br/drive/ct-02](http://www.teste.com.br/drive/ct-02) |
+| Registro de evidência | [teste-feito-atraves-do-developer] |
 
 
 > **Links úteis**:
@@ -25,4 +25,4 @@ Para cada caso de teste definido no <a href="08-Plano-testes-software.md"> Plano
 Discorra sobre os resultados do teste, ressaltando os pontos fortes e fracos identificados na solução. Comente como o grupo pretende abordar esses pontos nas próximas iterações. Apresente as falhas detectadas e as melhorias geradas a partir dos resultados obtidos nos testes.
 
 > **Links úteis**:
-> - [Ferramentas de Teste para JavaScript](https://geekflare.com/javascript-unit-testing/)
+> - [Ferramentas de Teste para JavaScript](Visual estudio code)

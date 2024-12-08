@@ -10,7 +10,7 @@ Não deixe de enumerar os casos de teste de forma sequencial e garantir que o(s)
 
 Por exemplo:
 
-| **Caso de teste**  | **CT-001 – Cadastrar perfil**  |
+| **Caso de teste**  | **Cadastrar perfil idoso ou cuidador**  |
 |:---: |:---: |
 | Requisito associado | RF-00X - A aplicação deve apresentar, na página principal, a funcionalidade de cadastro de usuários para que estes consigam criar e gerenciar seu perfil. |
 | Objetivo do teste | Verificar se o usuário consegue se cadastrar na aplicação. |
@@ -20,13 +20,13 @@ Por exemplo:
 
 <br>
 
-| **Caso de teste**  | **CT-002 – Efetuar login**  |
+| **Caso de teste**  | **Buscar-serviço**  |
 |:---: |:---: |
-| Requisito associado | RF-00Y - A aplicação deve possuir opção de fazer login, sendo o login o endereço de e-mail. |
-| Objetivo do teste | Verificar se o usuário consegue realizar login. |
-| Passos | - Acessar o navegador <br> - Informar o endereço do site https://adota-pet.herokuapp.com/src/index.html <br> - Clicar no botão "Entrar" <br> - Preencher o campo de e-mail <br> - Preencher o campo de senha <br> - Clicar em "Login" |
-| Critério de êxito | - O login foi realizado com sucesso. |
-| Responsável pela elaboração do caso de teste | Nome do integrante da equipe. |
+| Requisito associado | RF-001 - O cuidador deve procurar um serviço disponivel. |
+| Objetivo do teste | Verificar se o usuário consegue aceitar um serviço. |
+| Passos | - Acessar a pagina de serviços disponiveis clicando no botao da tela home serviços disponiveis |
+| Critério de êxito | - O usuario conseguiu aceitar ou negar serviço. |
+| Responsável pela elaboração do caso de teste | Erik. |
 
 
 ## Ferramentas de testes (opcional)

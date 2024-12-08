@@ -1,11 +1,9 @@
 # Product design
 
-<span style="color:red">Pré-requisitos: <a href="02-Product-discovery.md"> Product discovery</a></span>
 
 
-> ⚠️ **APAGUE ESTA PARTE ANTES DE ENTREGAR SEU TRABALHO**
 
-Neste momento, transformam-se os insights e validações obtidos em soluções tangíveis e utilizáveis. Esta fase envolve a definição de uma proposta de valor, detalhando a prioridade de cada ideia, e a consequente criação de wireframes, mockups e protótipos de alta fidelidade, que especificam a interface e a experiência do usuário.
+
 
 
 ## Histórias de usuários
@@ -21,91 +19,95 @@ Com base na análise das personas, foram identificadas as seguintes histórias d
 |Idoso.       | Ajuda para ir e voltar do supermercado.         | Preciso de suporte para carregar as compras e pedir um Uber.  |
 |Cuidador de idosos.       | Encontrar oportunidades de emprego mais próximas da minha casa e de melhor remuneração.         | Minha remuneração é muito prejudicada pelos custos de deslocamento do meu trabalho atual. |
 |Idosa.       | Alguém para me ajudar nas minhas tarefas domésticas que exigem um esforço maior.        | Tenho um problema no joelho e isso me enfraquece. Não consigo, por exemplo, varrer a varanda.  |
+|Filho.  | Alguém que ajude minha mãe a mexer no Uber.         | Não estou sempre por perto e não tenho tempo suficiente para ensiná-la com paciência.                |
+|Fisioterapeuta.       | Expandir os meus clientes.         | Fazer uma renda extra e atender quem necessitar do meu trabalho.  |
+|Filha.       | Ter a certeza de que minha mãe está bem assistida, recebendo os cuidados e ajudas necessários.        | Fico muito preocupada com a segurança e o bem-estar da minha mãe, especialmente porque não posso visitá-la com frequência.   |
+|Cuidadora de idosos.       | Encontrar oportunidades de trabalho na minha área.         | Acabei de me formar como técnica na área de assistência aos idosos.   |
+|Administrador de um lar para idosos.       | Otimizar o gerenciamento dos serviços oferecidos pelo meu negócio e encontrar mais cuidadores.         | Busco eficiência e qualidade na administração da instituição.  |
+|Cuidador de idosos.       | Ter mais praticidade na hora de procurar um emprego.         | Não consigo emprego na minha área com facilidade.  |
+|Idoso.       | Melhorar meu contato com redes sociais e ter mais acesso a notícias e jornais digitais.        | Tenho o costume e interesse desde jovem de me informar sobre diversos assuntos.  |
 
-> ⚠️ **APAGUE ESTA PARTE ANTES DE ENTREGAR SEU TRABALHO**
 
-Apresente aqui as histórias de usuários que são relevantes para o projeto da sua solução. As histórias de usuários consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuários por contexto, para facilitar consultas recorrentes a esta parte do documento.
 
-> **Links úteis**:
-> - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
-> - [Como escrever boas histórias de usuário (user stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
-> - [User stories: requisitos que humanos entendem](https://www.luiztools.com.br/post/user-stories-descricao-de-requisitos-que-humanos-entendem/)
-> - [Histórias de usuários: mais exemplos](https://www.reqview.com/doc/user-stories-example.html)
-> - [9 common user story mistakes](https://airfocus.com/blog/user-story-mistakes/)
+
 
 
 ## Proposta de valor
 
-**✳️✳️✳️ APRESENTE O DIAGRAMA DA PROPOSTA DE VALOR PARA CADA PERSONA ✳️✳️✳️**
-
-##### Proposta para a persona XPTO ⚠️ EXEMPLO ⚠️
-
-![Exemplo de proposta de valor](images/proposta1.png)
-![Exemplo de proposta de valor](images/proposta2.png)
-![Exemplo de proposta de valor](images/proposta3.png)
-![Exemplo de proposta de valor](images/proposta4.png)
-![Exemplo de proposta de valor](images/proposta5.png)
-
-> ⚠️ **APAGUE ESTA PARTE ANTES DE ENTREGAR SEU TRABALHO**
->
-> O mapa da proposta de valor é uma ferramenta que auxilia na definição do tipo de produto ou serviço que melhor atende às personas previamente estabelecidas.
 
 
-> **Links úteis**:
-> - [O que é o canvas da proposta de valor e como usar?](https://www.youtube.com/watch?v=Iqb-8Q_eiiA)
+##### Proposta para a persona Cláudia Barcelos
+![](images/proposta1.png)
+
+##### Proposta para a persona Maria Mercedes
+![](images/proposta2.png)
+
+##### Proposta para a persona Cristina Ferraz
+![](images/proposta3.png)
+
+##### Proposta para a persona Geraldo
+![](images/proposta4.png)
+
+##### Proposta para a persona Filomena da Silva
+![](images/proposta5.png)
+
+
+
+
 
 ## Requisitos
 
-As tabelas a seguir apresentam os requisitos funcionais e não funcionais que detalham o escopo do projeto. Para determinar a prioridade dos requisitos, aplique uma técnica de priorização e detalhe como essa técnica foi aplicada.
+As tabelas a seguir apresentam os requisitos funcionais e não funcionais que detalham o escopo do projeto: 
 
 ### Requisitos funcionais
 
 | ID     | Descrição do Requisito                                   | Prioridade |
 | ------ | ---------------------------------------------------------- | ---------- |
-| RF-001 | Cadastro e criação de perfis para clientes e prestadores de serviços. | ALTA       |
-| RF-002 | Filtro para o prestador de serviço desejado | MÉDIA     |
+| RF-001 | Permitir o cadastro e criação de perfis para clientes e profissionais | ALTA    |
+| RF-002 | Filtro para escolha e contratação dos profissionais | MEDIA     |
+| RF-003 | Permitir que o usuário poste os serviços desejados | ALTA     |
+| RF-004 | Barra de pesquisa para buscar informações e transitar entre as páginas |MEDIA     |
+| RF-005 | Permitir avaliação de clientes e profissionais | ALTA     |
+| RF-006 | Carrosel com slides que encaminham para páginas do site  | MEDIA     |
+| RF-007 | Banner para tutoriais de alertas contra golpes digitais | MEDIA    |
+| RF-008 | Formas de pagamento | ALTA     |
+| RF-009 | Página de administrador | ALTA     |
+| RF-010 | Cards com serviços disponíveis para o cuidador | ALTA     |
 
 ### Requisitos não funcionais
 
 | ID      | Descrição do Requisito                                                              | Prioridade |
 | ------- | ------------------------------------------------------------------------------------- | ---------- |
-| RNF-001 | O sistema vai ter portabilidade com dispositivos moveis em geral, principamente mobile e desktops, com interfaces responsivas.                                                                        | MÉDIA      |
-| RNF-002 | Ser intuitivo e acessível, especialmente especialmente para os idosos, com uma interface limpa botoes bem visiveis.                                                                           | ALTA     |
+| RNF-001 | O sistema vai ter portabilidade com dispositivos movéis em geral, principamente mobile e desktops, com interfaces responsivas.                                                                        | MÉDIA      |
+| RNF-002 | Ser intuitivo e acessível, especialmente para os idosos, com uma interface limpa e botoes bem visiveis.                                                                           | ALTA     |
 | RNF-003 | Sistema disponivel 100% do tempo para todas as aplicações do site.      | MEDIA      |
 | RNF-004 | Linguagem HTML, CSS, JSON e JavaScript.                                 | MEDIA      |
-| RNF-005 | O site será disponibilizado no Git Hub, uma plataforma dehospedagem de código fonte e arquivoscom controle de versão usando o Git.                                                                                | ALTA     |
-| RNF-006 | A fonte das letras deve seracessível para os idosos com baixavisão.       | ALTA      |
+| RNF-005 | O site será disponibilizado no Git Hub, uma plataforma de hospedagem de código fonte e arquivos com controle de versão usando o Git.                                                                                | ALTA     |
+| RNF-006 | A fonte das letras deverá ser boa e acessível para os idosos com baixa visão.       | ALTA      |
 
 
 
-> ⚠️ **APAGUE ESTA PARTE ANTES DE ENTREGAR SEU TRABALHO**
->
-> Com base nas histórias de usuários, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
 
-- [Requisitos funcionais
- (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
- correspondem a uma funcionalidade que deve estar presente na
-  plataforma (ex: cadastro de usuário).
-- [Requisitos não funcionais
-  (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
-  correspondem a uma característica técnica, seja de usabilidade,
-  desempenho, confiabilidade, segurança ou outro (ex: suporte a
-  dispositivos iOS e Android).
 
-Lembre-se de que cada requisito deve corresponder a uma e somente uma característica-alvo da sua solução. Além disso, certifique-se de que todos os aspectos capturados nas histórias de usuários foram cobertos.
 
-> **Links úteis**:
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [Entenda o que são requisitos de software, a diferença entre requisito funcional e não funcional, e como identificar e documentar cada um deles](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
+
+
+
+
 
 
 ## Restrições
 
-Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
 
-O projeto está restrito aos itens apresentados na tabela a seguir.
+
+O projeto está restrito aos itens apresentados na tabela a seguir:
 
 |ID| Restrição                                             |
 |--|-------------------------------------------------------|
-|001| O projeto deverá ser entregue até o final do semestre ⚠️ EXEMPLO ⚠️ |
-|002| Não é permitido o desenvolvimento de um módulo de back-end  ⚠️ EXEMPLO ⚠️  |
+|001| O prazo de entrega será até o dia 8 de Dezembro. | 
+|002| A apresentação do projeto será dia 10 de Dezembro. |
+|003| Bootstrap só poderá ser utilizado sob consulta e não será considerado requisito de entrega.  |
+|004| Não será permitido utilizar back-end no projeto.  |
+
+
+

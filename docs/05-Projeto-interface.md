@@ -9,51 +9,46 @@
 
  ## User flow
 
-
-> ⚠️ **APAGUE ESTA PARTE ANTES DE ENTREGAR SEU TRABALHO**
-
-Fluxo de usuário (user flow) é uma técnica que permite ao desenvolvedor mapear todo o fluxo de navegação do usuário na aplicação. Essa técnica serve para alinhar os caminhos e as possíveis ações que o usuário pode realizar junto com os membros da equipe.
-
-**✳️✳️✳️ COLOQUE AQUI O USER FLOW ✳️✳️✳️**
-
-![Exemplo de fluxo de telas](images/exemplo-userflow.png)
-
-> **Links úteis**:
-> - [User flow: o quê é e como fazer?](https://medium.com/7bits/fluxo-de-usu%C3%A1rio-user-flow-o-que-%C3%A9-como-fazer-79d965872534)
-> - [User flow vs site maps](http://designr.com.br/sitemap-e-user-flow-quais-as-diferencas-e-quando-usar-cada-um/)
-> - [Top 25 user flow tools & templates for smooth](https://www.mockplus.com/blog/post/user-flow-tools)
-
+![Exemplo de fluxo de telas](images/UserFlow.png)
 
 ## Wireframes
 
-> ⚠️ **APAGUE ESTA PARTE ANTES DE ENTREGAR SEU TRABALHO**
+##### Cadastro de Usuário
 
-São protótipos usados no design de interface para sugerir a estrutura de um site web e seu relacionamento entre suas páginas. Um wireframe web é uma ilustração que mostra o layout dos elementos fundamentais na interface.
+A tela de cadastro permite que o usuário crie um perfil pessoal, fornecendo informações básicas necessárias para acessar o site. É um passo inicial antes do login e garante a personalização e segurança da conta.
 
-**✳️✳️✳️ COLOQUE AQUI OS PROTÓTIPOS DE TELAS COM TÍTULO E DESCRIÇÃO ✳️✳️✳️**
+![Exemplo de wireframe](images/cadastro.jpg)
 
-##### TELA XPTO ⚠️ EXEMPLO ⚠️
+##### Página Inicial
 
-Descrição para a tela XPTO
+A tela inicial apresenta informações gerais sobre o site por meio de textos informativos e elementos interativos, como botões e um carrossel de imagens. Esses recursos facilitam a navegação, direcionando o usuário para diferentes seções e funcionalidades do site.
 
-![Exemplo de wireframe](images/exemplo-wireframe.png)
+![Exemplo de wireframe](images/incial.jpg)
 
- 
-> **Links úteis**:
-> - [Protótipos: baixa, média ou alta fidelidade?](https://medium.com/ladies-that-ux-br/prot%C3%B3tipos-baixa-m%C3%A9dia-ou-alta-fidelidade-71d897559135)
-> - [Protótipos vs wireframes](https://www.nngroup.com/videos/prototypes-vs-wireframes-ux-projects/)
-> - [Ferramentas de wireframes](https://rockcontent.com/blog/wireframes/)
-> - [Figma](https://www.figma.com/)
-> - [MarvelApp](https://marvelapp.com/developers/documentation/tutorials/)
-> - [Adobe XD](https://www.adobe.com/br/products/xd.html#scroll)
+##### Avaliações dos Usuários
 
+A tela de avaliações permite que o usuário visualize feedbacks e classificações deixados por outros usuários do site, sejam eles idosos ou profissionais. Essa funcionalidade ajuda a criar confiança e a facilitar escolhas informadas sobre os serviços disponíveis.
+
+![Exemplo de wireframe](images/avaliações.jpg)
+
+##### Tutoriais Práticos
+
+A página de tutoriais oferece instruções claras e simplificadas para auxiliar os usuários em tarefas do dia a dia, como utilizar aplicativos de transporte, entre outros. O objetivo é promover a autonomia e facilitar o aprendizado de novas tecnologias e ferramentas.
+
+![Exemplo de wireframe](images/tutoriais.jpg)
+
+##### Contratar Profissionais
+
+Esta página permite que o usuário encontre e contrate profissionais específicos, de acordo com suas necessidades. É uma ferramenta prática para conectar cuidadores e clientes de forma rápida e eficiente.
+
+![Exemplo de wireframe](images/profissionais.jpg)
+
+##### Gerenciamento de Serviços
+
+Nesta página, os profissionais podem visualizar e aceitar solicitações de serviços enviadas pelos idosos. É o ponto de conexão para iniciar o atendimento de forma organizada e eficiente.
+
+![Exemplo de wireframe](images/serviços.jpg)
 
 ### Protótipo Interativo
 
-> ⚠️ **APAGUE ESTA PARTE ANTES DE ENTREGAR SEU TRABALHO**
->
-> Um protótipo interativo apresenta o projeto das interfaces e permite ao usuário navegar pelas funcionalidades como se estivesse utilizando o software finalizado. Utilize as mesmas ferramentas de criação de wireframes para a montagem do seu protótipo interativo. Inclua o link para o protótipo interativo do projeto.
-
-**✳️✳️✳️ COLOQUE AQUI UM IFRAME COM SEU PROTÓTIPO INTERATIVO ✳️✳️✳️**
-
-✅ [Protótipo interativo](https://marvelapp.com/prototype/4hd6091?emb=1&iosapp=false&frameless=false)  ⚠️ EXEMPLO ⚠️
+✅ [Protótipo interativo](https://www.figma.com/proto/GOrsjO7zJH1fKIcQRKxlCc/WIREFRAME?node-id=231-58&node-type=canvas&t=f9nTnjQPAxkgOrUa-1&scaling=scale-down&content-scaling=fixed&page-id=39%3A26) 

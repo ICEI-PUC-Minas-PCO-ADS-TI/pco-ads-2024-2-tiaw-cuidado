@@ -82,16 +82,19 @@ h1 {
         /*Banner inico */
 
 .banner {
+    
     background-size: cover;
     background-position: center;
     height: 50vh; 
+    max-width: 600px;
+    margin-left: 500px;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
     color: white;
     position: relative;
-    background-attachment: fixed; 
+    
 }
 
 

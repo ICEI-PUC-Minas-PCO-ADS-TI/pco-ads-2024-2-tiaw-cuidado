@@ -77,12 +77,12 @@ As tabelas a seguir apresentam os requisitos funcionais e não funcionais que de
 
 | ID      | Descrição do Requisito                                                              | Prioridade |
 | ------- | ------------------------------------------------------------------------------------- | ---------- |
-| RNF-001 | O sistema vai ter portabilidade com dispositivos moveis em geral, principamente mobile e desktops, com interfaces responsivas.                                                                        | MÉDIA      |
-| RNF-002 | Ser intuitivo e acessível, especialmente especialmente para os idosos, com uma interface limpa botoes bem visiveis.                                                                           | ALTA     |
+| RNF-001 | O sistema vai ter portabilidade com dispositivos movéis em geral, principamente mobile e desktops, com interfaces responsivas.                                                                        | MÉDIA      |
+| RNF-002 | Ser intuitivo e acessível, especialmente para os idosos, com uma interface limpa e botoes bem visiveis.                                                                           | ALTA     |
 | RNF-003 | Sistema disponivel 100% do tempo para todas as aplicações do site.      | MEDIA      |
 | RNF-004 | Linguagem HTML, CSS, JSON e JavaScript.                                 | MEDIA      |
-| RNF-005 | O site será disponibilizado no Git Hub, uma plataforma dehospedagem de código fonte e arquivoscom controle de versão usando o Git.                                                                                | ALTA     |
-| RNF-006 | A fonte das letras deve seracessível para os idosos com baixavisão.       | ALTA      |
+| RNF-005 | O site será disponibilizado no Git Hub, uma plataforma de hospedagem de código fonte e arquivos com controle de versão usando o Git.                                                                                | ALTA     |
+| RNF-006 | A fonte das letras deve sera acessível para os idosos com baixa visão.       | ALTA      |
 
 
 

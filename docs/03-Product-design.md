@@ -83,7 +83,7 @@ As tabelas a seguir apresentam os requisitos funcionais e não funcionais que de
 | RNF-003 | Sistema disponivel 100% do tempo para todas as aplicações do site.      | MEDIA      |
 | RNF-004 | Linguagem HTML, CSS, JSON e JavaScript.                                 | MEDIA      |
 | RNF-005 | O site será disponibilizado no Git Hub, uma plataforma de hospedagem de código fonte e arquivos com controle de versão usando o Git.                                                                                | ALTA     |
-| RNF-006 | A fonte das letras deve sera acessível para os idosos com baixa visão.       | ALTA      |
+| RNF-006 | A fonte das letras deverá ser boa e acessível para os idosos com baixa visão.       | ALTA      |
 
 
 

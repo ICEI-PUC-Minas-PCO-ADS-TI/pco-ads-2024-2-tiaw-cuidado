@@ -1,6 +1,6 @@
 # Product design
 
-<span style="color:red">Pré-requisitos: <a href="02-Product-discovery.md"> Product discovery</a></span>
+
 
 
 
@@ -19,6 +19,13 @@ Com base na análise das personas, foram identificadas as seguintes histórias d
 |Idoso.       | Ajuda para ir e voltar do supermercado.         | Preciso de suporte para carregar as compras e pedir um Uber.  |
 |Cuidador de idosos.       | Encontrar oportunidades de emprego mais próximas da minha casa e de melhor remuneração.         | Minha remuneração é muito prejudicada pelos custos de deslocamento do meu trabalho atual. |
 |Idosa.       | Alguém para me ajudar nas minhas tarefas domésticas que exigem um esforço maior.        | Tenho um problema no joelho e isso me enfraquece. Não consigo, por exemplo, varrer a varanda.  |
+|Filho.  | Alguém que ajude minha mãe a mexer no Uber.         | Não estou sempre por perto e não tenho tempo suficiente para ensiná-la com paciência.                |
+|Fisioterapeuta.       | Expandir os meus clientes.         | Fazer uma renda extra e atender quem necessitar do meu trabalho.  |
+|Filha.       | Ter a certeza de que minha mãe está bem assistida, recebendo os cuidados e ajudas necessários.        | Fico muito preocupada com a segurança e o bem-estar da minha mãe, especialmente porque não posso visitá-la com frequência.   |
+|Cuidadora de idosos.       | Encontrar oportunidades de trabalho na minha área.         | Acabei de me formar como técnica na área de assistência aos idosos.   |
+|Administrador de um lar para idosos.       | Otimizar o gerenciamento dos serviços oferecidos pelo meu negócio e encontrar mais cuidadores.         | Busco eficiência e qualidade na administração da instituição.  |
+|Cuidador de idosos.       | Ter mais praticidade na hora de procurar um emprego.         | Não consigo emprego na minha área com facilidade.  |
+|Idoso.       | Melhorar meu contato com redes sociais e ter mais acesso a notícias e jornais digitais.        | Tenho o costume e interesse desde jovem de me informar sobre diversos assuntos.  |
 
 
 
@@ -29,13 +36,20 @@ Com base na análise das personas, foram identificadas as seguintes histórias d
 
 
 
-##### Proposta para a persona XPTO ⚠️ EXEMPLO ⚠️
+##### Proposta para a persona Cláudia Barcelos
+![](images/proposta1.png)
 
-![Exemplo de proposta de valor](images/proposta1.png)
-![Exemplo de proposta de valor](images/proposta2.png)
-![Exemplo de proposta de valor](images/proposta3.png)
-![Exemplo de proposta de valor](images/proposta4.png)
-![Exemplo de proposta de valor](images/proposta5.png)
+##### Proposta para a persona Maria Mercedes
+![](images/proposta2.png)
+
+##### Proposta para a persona Cristina Ferraz
+![](images/proposta3.png)
+
+##### Proposta para a persona Geraldo
+![](images/proposta4.png)
+
+##### Proposta para a persona Filomena da Silva
+![](images/proposta5.png)
 
 
 
@@ -43,7 +57,7 @@ Com base na análise das personas, foram identificadas as seguintes histórias d
 
 ## Requisitos
 
-As tabelas a seguir apresentam os requisitos funcionais e não funcionais que detalham o escopo do projeto. Para determinar a prioridade dos requisitos, aplique uma técnica de priorização e detalhe como essa técnica foi aplicada.
+As tabelas a seguir apresentam os requisitos funcionais e não funcionais que detalham o escopo do projeto: 
 
 ### Requisitos funcionais
 
@@ -54,8 +68,8 @@ As tabelas a seguir apresentam os requisitos funcionais e não funcionais que de
 | RF-003 | Permitir que o usuário poste os serviços desejados | ALTA     |
 | RF-004 | Barra de pesquisa para buscar informações e transitar entre as páginas |MEDIA     |
 | RF-005 | Permitir avaliação de clientes e profissionais | ALTA     |
-| RF-006 | Slide  | MEDIA     |
-| RF-007 | Banner | MEDIA    |
+| RF-006 | Carrosel com slides que encaminham para páginas do site  | MEDIA     |
+| RF-007 | Banner para tutoriais de alertas contra golpes digitais | MEDIA    |
 | RF-008 | Formas de pagamento | ALTA     |
 | RF-009 | Página de administrador | ALTA     |
 | RF-010 | Cards com serviços disponíveis para o cuidador | ALTA     |
@@ -84,9 +98,9 @@ As tabelas a seguir apresentam os requisitos funcionais e não funcionais que de
 
 ## Restrições
 
-Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
 
-O projeto está restrito aos itens apresentados na tabela a seguir.
+
+O projeto está restrito aos itens apresentados na tabela a seguir:
 
 |ID| Restrição                                             |
 |--|-------------------------------------------------------|

@@ -40,7 +40,11 @@ Apresente aqui as histórias de usuários que são relevantes para o projeto da 
 
 ##### Proposta para a persona XPTO ⚠️ EXEMPLO ⚠️
 
-![Exemplo de proposta de valor](images/exemplo-proposta-valor.png)
+![Exemplo de proposta de valor](images/proposta1.png)
+![Exemplo de proposta de valor](images/proposta2.png)
+![Exemplo de proposta de valor](images/proposta3.png)
+![Exemplo de proposta de valor](images/proposta4.png)
+![Exemplo de proposta de valor](images/proposta5.png)
 
 > ⚠️ **APAGUE ESTA PARTE ANTES DE ENTREGAR SEU TRABALHO**
 >

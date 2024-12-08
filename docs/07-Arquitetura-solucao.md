@@ -10,15 +10,15 @@ Definição de como o software é estruturado em termos dos componentes que faze
 
 Esta seção apresenta as funcionalidades da solução.
 
-##### Funcionalidade 1 - Cadastro de contatos ⚠️ EXEMPLO ⚠️
+##### Funcionalidade 1 - Banner ⚠️ EXEMPLO ⚠️
 
 Permite a inclusão, leitura, alteração e exclusão de contatos para o sistema
 
-* **Estrutura de dados:** [Contatos](#estrutura-de-dados---contatos)
+* **Estrutura de dados:** [Banner](#Banner---Ivan*)
 * **Instruções de acesso:**
-  * Abra o site e efetue o login;
-  * Acesse o menu principal e escolha a opção "Cadastros";
-  * Em seguida, escolha a opção "Contatos".
+  * O Banner e estatico;
+  * Acesse a pagina de tutoriais atraves dela sera possivel ver o Banner no topo da tela;
+  * Ao recarregar a pagina a imagem mudara aleatoriamente".
 * **Tela da funcionalidade**:
 
 ![Tela de funcionalidade](images/exemplo-funcionalidade.png)

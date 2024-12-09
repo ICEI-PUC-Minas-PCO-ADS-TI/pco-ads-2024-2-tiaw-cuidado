@@ -5,7 +5,7 @@
 
 ## Slides
 
-[](files/Cuidado+.pdf)
+[](docs/files/Cuidado+.pdf)
 
 
 ## Vídeo

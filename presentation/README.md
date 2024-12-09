@@ -5,7 +5,7 @@
 
 ## Slides
 
-[Download PDF](docs/files/Cuidado+.pdf)
+[Slides](files/GrupoCuidado+.pdf)
 
 ## Vídeo
 

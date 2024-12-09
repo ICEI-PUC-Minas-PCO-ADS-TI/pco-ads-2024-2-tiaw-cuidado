@@ -5,7 +5,7 @@
 
 ## Slides
 
-![Exemplo de fluxo de telas](images/UserFlow.png)
+![Exemplo de fluxo de telas](files/Cuidado+ (2).pdf)
 
 
 ## Vídeo

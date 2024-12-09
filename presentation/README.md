@@ -5,7 +5,7 @@
 
 ## Slides
 
-[Slides](presentation/Cuidado+.pdf)
+[Slides](Cuidado+.pdf)
 
 ## Vídeo
 

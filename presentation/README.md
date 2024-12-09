@@ -5,7 +5,7 @@
 
 ## Slides
 
-![Exemplo de fluxo de telas](files/Cuidado+ (2).pdf)
+✅ [Documentação de Design Thinking (MIRO)](files/GrupoCuidado+(2).pdf)
 
 
 ## Vídeo

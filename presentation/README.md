@@ -5,7 +5,7 @@
 
 ## Slides
 
-[](docs/files/Cuidado+.pdf)
+![Exemplo de fluxo de telas](images/UserFlow.png)
 
 
 ## Vídeo

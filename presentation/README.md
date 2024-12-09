@@ -5,8 +5,7 @@
 
 ## Slides
 
-✅ [Documentação de Design Thinking (MIRO)](docs/files/GrupoCuidado+(2).pdf)
-
+[Download PDF](docs/files/seuarquivo.pdf)
 
 ## Vídeo
 

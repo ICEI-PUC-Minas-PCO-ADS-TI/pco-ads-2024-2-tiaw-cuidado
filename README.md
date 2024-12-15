@@ -22,7 +22,20 @@ O objetivo do projeto é desenvolver um site direcionado a prestar cuidados aos 
 
 ## Instruções de utilização
 
-Assim que a primeira versão do sistema estiver disponível, deverá complementar com as instruções de utilização. Descreva como instalar eventuais dependências e como executar a aplicação.
+Executar a aplicação.
+Primeiramente preencha o formulário de cadastro e realize o seu cadastro. Em seguida, efetue o login inserindo o e-mail e senha cadastrados. 
+
+Ao efetutar o login e acessar a página Home, clique nas páginas apresentadas no carrosel. Clique em "Tutoriais" para acessar os tutoriais de utilização do Uber, em "Alertas contra golpes" para verificar as prevenções contra golpes digitais e em "Contratação de Profissionais" para acessar a páginas de profissionais disponíveis no site.
+
+Na página de tutoriais, há um banner que o conduz para a página de alertas contra golpes digitais e na página de profissionais disponíveis há um filtro com parâmetros segundo a disponibilidade de tempo dos prestadores de serviços do site. Escolha a profissional Cristina Ferraz clicando em "Contratar", em seguida cadastre o serviço que deseja e clique em "Cadastrar". Por fim, efetue o  pagamento do serviço.
+
+Retorne à página Home, clique no botão "Para Profissionais" e confira o serviços que aguardam os prestadores de serviços do site. Após fazer isso, retorne novamente a página principal do site e navegue por meio  da barra de pesquisa pelas páginas do site (pesquisa por: avaliações, tutoriais, cuidadores, serviços, golpes digitais, tutoriais contra golpes digitais).
+
+Na página Home, clique em "Avaliações" na página Home, pesquise e avalie separadamente os usuários Filomena da Silva, Geraldo Rocha e Cristina Ferraz.
+
+Por fim, acesse a página de administrador
+
+
 
 Não deixe de informar o link onde a aplicação estará disponível para acesso (por exemplo: https://adota-pet.herokuapp.com/src/index.html).
 

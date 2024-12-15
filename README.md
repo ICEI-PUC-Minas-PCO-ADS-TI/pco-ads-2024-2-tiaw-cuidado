@@ -33,15 +33,9 @@ Retorne à página Home, clique no botão "Para Profissionais" e confira o servi
 
 Na página Home, clique em "Avaliações" na página Home, pesquise e avalie separadamente os usuários Filomena da Silva, Geraldo Rocha e Cristina Ferraz.
 
-Por fim, acesse a página de administrador
+Por fim, acesse a página de administrador, clique em "Idosos", edite e remova nomes. Clique em "Cuidadores" e faça o mesmo. Em seguida, acesse "Visão Geral" e confira gráficos os de quantitativos de idosos e profissionais cadastrados no site.
 
-
-
-Não deixe de informar o link onde a aplicação estará disponível para acesso (por exemplo: https://adota-pet.herokuapp.com/src/index.html).
-
-Se houver usuário de teste, o login e a senha também deverão ser informados aqui (por exemplo: usuário - admin / senha - admin).
-
-O link e o usuário/senha descritos acima são apenas exemplos de como tais informações deverão ser apresentadas.
+A aplicação é local, não está hospedada em algum lugar.
 
 # Documentação
 

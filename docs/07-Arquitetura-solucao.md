@@ -105,15 +105,24 @@ Descrição das estruturas de dados utilizadas na solução com exemplos no form
 Contatos da aplicação
 
 ```json
-  {
-    "id": 1,
-    "nome": "Leanne Graham",
-    "cidade": "Belo Horizonte",
-    "categoria": "amigos",
-    "email": "Sincere@april.biz",
-    "telefone": "1-770-736-8031",
-    "website": "hildegard.org"
-  }
+
+[
+    {
+        "image": "imagens/slide1.jpeg",
+        "link": "teste.html",
+        "text": "Contratação de Serviços"
+    },
+    {
+        "image": "imagens/slide2.jpeg",
+        "link": "teste.html",
+        "text": "Tutoriais"
+    },
+    {
+        "image": "imagens/slide3.jpeg",
+        "link": "teste.html",
+        "text": "Alertas contra Golpes"
+    }
+  ]
   
 ```
 

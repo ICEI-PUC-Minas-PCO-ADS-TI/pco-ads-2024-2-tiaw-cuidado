@@ -1,12 +1,15 @@
 # Template padrão da aplicação
 
-<span style="color:red">Pré-requisitos: <a href="03-Product-design.md"> Especificação do projeto</a></span>, <a href="04-Metodologia.md"> Metodologia</a>, <a href="05-Projeto-interface.md"> Projeto de interface</a>
+![](images/TemplatePadrao.jpeg)
 
-Layout padrão da aplicação que será utilizado em todas as páginas com a definição de identidade visual, aspectos de responsividade e iconografia.
+Cabeçalho - background: #92A8D1 e logomarca do grupo localizada no canto superior esquerdo.
 
-> **Links úteis**:
->
-> - [CSS website layout (W3Schools)](https://www.w3schools.com/css/css_website_layout.asp)
-> - [Website page layouts](http://www.cellbiol.com/bioinformatics_web_development/chapter-3-your-first-web-page-learning-html-and-css/website-page-layouts/)
-> - [Perfect liquid layout](https://matthewjamestaylor.com/perfect-liquid-layouts)
-> - [How and why icons improve your web design](https://usabilla.com/blog/how-and-why-icons-improve-you-web-design/)
+Corpo - font-family: Poppins; background: #F0F0F0;
+
+Rodapé - background: (azul claro levemente acinzentado)#92A8D1 e descrição "&copy; 2024 Cuidado+. Todos os direitos reservados."
+
+Fonte das Letras - font-family: Poppins; src: url(/src/public/assets/fonts/Poppins-Regular.ttf) format('truetype'); font-weight: 400; font-style: normal.
+
+
+
+

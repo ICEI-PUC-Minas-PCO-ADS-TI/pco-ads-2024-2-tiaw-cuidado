@@ -11,7 +11,7 @@ segurança e qualidade de vida.
 ## Problema
 Tendo em vista o crescimento demográfico da população idosa no país, surgem
 enormes desafios que exigem soluções tão grandes quanto eles. A nossa equipe 
-buscou compreender esses problemas e combatê-los através de uma solução 
+buscou compreender esses problemas e combatê-los por meio de uma solução 
 tecnológica. Primeiramente, apresentaremos os problemas, as soluções serão 
 expostas depois.
 Com o ritmo acelerado de nossos dias, algumas pessoas não têm tempo de cuidar 

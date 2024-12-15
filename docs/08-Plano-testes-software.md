@@ -1,15 +1,5 @@
 # Plano de testes de software
 
-<span style="color:red">Pré-requisitos: <a href="03-Product-design.md"> Especificação do projeto</a></span>, <a href="05-Projeto-interface.md"> Projeto de interface</a>
-
-O plano de testes de software é gerado a partir da especificação do sistema e consiste em casos de teste que deverão ser executados quando a implementação estiver parcial ou totalmente pronta. Apresente os cenários de teste utilizados na realização dos testes da sua aplicação. Escolha cenários de teste que demonstrem os requisitos sendo satisfeitos.
-
-Enumere quais cenários de testes foram selecionados para teste. Neste tópico, o grupo deve detalhar quais funcionalidades foram avaliadas, o grupo de usuários que foi escolhido para participar do teste e as ferramentas utilizadas.
-
-Não deixe de enumerar os casos de teste de forma sequencial e garantir que o(s) requisito(s) associado(s) a cada um deles esteja(m) correto(s) — de acordo com o que foi definido na <a href="03-Product-design.md">Especificação do projeto</a>.
-
-Por exemplo:
-
  **Caso de teste**   **CT-001 – Formulário de Cadastro**  
 
 Requisito associado -  
@@ -32,199 +22,221 @@ Responsável pela elaboração do caso de teste -
 
 Lucas Puggina. 
 
-**Caso de teste**   **CT-001 – Formulário de Cadastro**  
+**Caso de teste**   **CT-002 – Login**  
 
 Requisito associado -  
 
-RF-00X - A aplicação deve apresentar, como página inical, o formulário de cadastro de usuários para a criação de perfis.
+RF-00X - A aplicação deve apresentar, após a conclusão do cadastro, a página de login.
 
 Objetivo do teste - 
 
-Verificar se o usuário consegue se cadastrar na aplicação. 
+Verificar se o usuário consegue entrar efetuar o login. 
 
 Passos  - 
 
-Acessar a aplicação, preencher os campos obrigatórios (nome, e-mail, senha, confirmação de senha, endereço e profissão) e clicar em "Cadastrar".
+Preencher os campos obrigatórios (e-mail e senha) e clicar em "Entrar".
 
 Critério de êxito - 
 
-Cadastro realizado e encaminhamento para a página de login.
+ Encaminhamento para a página Home do site.
 
 Responsável pela elaboração do caso de teste -
 
 Lucas Puggina. 
 
-**Caso de teste**   **CT-001 – Formulário de Cadastro**  
+**Caso de teste**   **CT-003 – Carrosel**  
 
 Requisito associado -  
 
-RF-00X - A aplicação deve apresentar, como página inical, o formulário de cadastro de usuários para a criação de perfis.
+RF-00X - A aplicação deve apresentar, na página Home, um carrousel com três imagens que direcionam o usuário para outras páginas do site.
 
 Objetivo do teste - 
 
-Verificar se o usuário consegue se cadastrar na aplicação. 
+Verificar se o usuário é encaminhado corretamente para as páginas do carrosel. 
 
 Passos  - 
 
-Acessar a aplicação, preencher os campos obrigatórios (nome, e-mail, senha, confirmação de senha, endereço e profissão) e clicar em "Cadastrar".
+Na página Home, clicar nos slides do carrosel (um por vez).
 
 Critério de êxito - 
 
-Cadastro realizado e encaminhamento para a página de login.
+Encaminhamento para a página de alertas contra golpes, contratação de profissionais e tutoriais.
 
 Responsável pela elaboração do caso de teste -
 
-Lucas Puggina. 
+Erik Alcântara. 
 
-**Caso de teste**   **CT-001 – Formulário de Cadastro**  
+**Caso de teste**   **CT-004 – Página de Administrador**  
 
 Requisito associado -  
 
-RF-00X - A aplicação deve apresentar, como página inical, o formulário de cadastro de usuários para a criação de perfis.
+RF-00X - Ao entrar com um login de administrador, será exibido como tela principal a página de adminitsrador.
 
 Objetivo do teste - 
 
-Verificar se o usuário consegue se cadastrar na aplicação. 
+Verificar se o administrador consegue verificar os usuários do site por meio de gráficos e editar ou remover usuários. 
 
 Passos  - 
 
-Acessar a aplicação, preencher os campos obrigatórios (nome, e-mail, senha, confirmação de senha, endereço e profissão) e clicar em "Cadastrar".
+Acessar a página de administrador, observar os gráficos, remover e editar cadastros.
 
 Critério de êxito - 
 
-Cadastro realizado e encaminhamento para a página de login.
+Gráficos funcionando corretamente e atualizando conforme alterações do administrador.
 
 Responsável pela elaboração do caso de teste -
 
-Lucas Puggina. 
+Erik Alcântara. 
 
-**Caso de teste**   **CT-001 – Formulário de Cadastro**  
+**Caso de teste**   **CT-005 – Avaliação de Usuários**  
 
 Requisito associado -  
 
-RF-00X - A aplicação deve apresentar, como página inical, o formulário de cadastro de usuários para a criação de perfis.
+RF-00X - Na página de avaliação de usuários, o site deve apresentar uma barra de pesquisa para pesquisar um determinado usuário e um campo de comentários para avaliá-lo.
 
 Objetivo do teste - 
 
-Verificar se o usuário consegue se cadastrar na aplicação. 
+Verificar se é possível avaliar um usuário por meio de comentários 
 
 Passos  - 
 
-Acessar a aplicação, preencher os campos obrigatórios (nome, e-mail, senha, confirmação de senha, endereço e profissão) e clicar em "Cadastrar".
+Na barra de pesquisa de usuários, pesquisar por um nome (Filomena, Geraldo ou Cristina) e clicar em "Pesquisar". Em seguida, digitar um comentário e clicar em "Confirmar".
 
 Critério de êxito - 
 
-Cadastro realizado e encaminhamento para a página de login.
+A página exibirá um alerta de confirmação do comentário realizado e o exibirá na página.
 
 Responsável pela elaboração do caso de teste -
 
-Lucas Puggina. 
+Franklin Reis. 
 
-**Caso de teste**   **CT-001 – Formulário de Cadastro**  
+**Caso de teste**   **CT-006 – Barra de Pesquisa**  
 
 Requisito associado -  
 
-RF-00X - A aplicação deve apresentar, como página inical, o formulário de cadastro de usuários para a criação de perfis.
+RF-00X - Na página Home, há uma barra de pesquisa para facilitar o acesso às outras páginas do site.
 
 Objetivo do teste - 
 
-Verificar se o usuário consegue se cadastrar na aplicação. 
+Verificar se a barra de pesquisa encaminha para a página pesquisada. 
 
 Passos  - 
 
-Acessar a aplicação, preencher os campos obrigatórios (nome, e-mail, senha, confirmação de senha, endereço e profissão) e clicar em "Cadastrar".
+Digitar o nome principal de alguma das páginas do site (avaliações, tutoriais, cuidadores, serviços, golpes digitais, tutoriais contra golpes digitais) e clicar na "Lupa".
 
 Critério de êxito - 
 
-Cadastro realizado e encaminhamento para a página de login.
+Encaminhamento para a página pesquisada.
 
 Responsável pela elaboração do caso de teste -
 
-Lucas Puggina. 
+Franklin Reis. 
 
-**Caso de teste**   **CT-001 – Formulário de Cadastro**  
+**Caso de teste**   **CT-007 – Banner**  
 
 Requisito associado -  
 
-RF-00X - A aplicação deve apresentar, como página inical, o formulário de cadastro de usuários para a criação de perfis.
+RF-00X - Na página de tutoriais, há um banner que apresenta imagens e encaminha o usuário para a página de tutoriais contra golpes digitais.
 
 Objetivo do teste - 
 
-Verificar se o usuário consegue se cadastrar na aplicação. 
+Verificar se as imagens aparecem corretamente e se o usuário é encaminhado para a página de tutoriais contra golpes digitais ao clicar em "Saiba Mais". 
 
 Passos  - 
 
-Acessar a aplicação, preencher os campos obrigatórios (nome, e-mail, senha, confirmação de senha, endereço e profissão) e clicar em "Cadastrar".
+Recarregar a página mais de uma vez para verificar as imagens do banner sendo apresentadas a cada renderização e clicar em "Saiba Mais".
 
 Critério de êxito - 
 
-Cadastro realizado e encaminhamento para a página de login.
+Imagens diferentes devem ser exibidas a cada renderização e encaminhamento para a página de tutoriais contra golpes digitais .
 
 Responsável pela elaboração do caso de teste -
 
-Lucas Puggina. 
+Ivan Barreto. 
 
-**Caso de teste**   **CT-001 – Formulário de Cadastro**  
+**Caso de teste**   **CT-008 – Cards de Serviços**  
 
 Requisito associado -  
 
-RF-00X - A aplicação deve apresentar, como página inical, o formulário de cadastro de usuários para a criação de perfis.
+RF-00X - O botão "Para Profissionais", ao ser clicado, conduz o profissional para os cards de serviços que os aguardam.
 
 Objetivo do teste - 
 
-Verificar se o usuário consegue se cadastrar na aplicação. 
+Verificar se os cards de serviços são exibidos corretamente e se permitem ser aceitos ou negados. 
 
 Passos  - 
 
-Acessar a aplicação, preencher os campos obrigatórios (nome, e-mail, senha, confirmação de senha, endereço e profissão) e clicar em "Cadastrar".
+Clicar no botão "Para Profissionais" e aceitar ou negar um serviço.
 
 Critério de êxito - 
 
-Cadastro realizado e encaminhamento para a página de login.
+A página deverá exibir uma confirmação ao aceitar ou negar algum serviço.
 
 Responsável pela elaboração do caso de teste -
 
-Lucas Puggina. 
+Ivan Barreto. 
 
-**Caso de teste**   **CT-001 – Formulário de Cadastro**  
+**Caso de teste**   **CT-009 – Filtro de Profissionais**  
 
 Requisito associado -  
 
-RF-00X - A aplicação deve apresentar, como página inical, o formulário de cadastro de usuários para a criação de perfis.
+RF-00X - Na página de contratação de profissionais, há um filtro de pesquisa para escolher um profissional.
 
 Objetivo do teste - 
 
-Verificar se o usuário consegue se cadastrar na aplicação. 
+Filtrar um profissional conforme os parâmetros estabelecidos. 
 
 Passos  - 
 
-Acessar a aplicação, preencher os campos obrigatórios (nome, e-mail, senha, confirmação de senha, endereço e profissão) e clicar em "Cadastrar".
+Na página de contratações, escolher um dos parâmetros do filtro e clicá-lo .
 
 Critério de êxito - 
 
-Cadastro realizado e encaminhamento para a página de login.
+O profissional apresentado estará em conformidade com o parâmetro estabelecido.
 
 Responsável pela elaboração do caso de teste -
 
-Lucas Puggina. 
+Rodrigo Falcão. 
 
-**Caso de teste**   **CT-001 – Formulário de Cadastro**  
+**Caso de teste**   **CT-010 – Postagem de Serviço**  
 
 Requisito associado -  
 
-RF-00X - A aplicação deve apresentar, como página inical, o formulário de cadastro de usuários para a criação de perfis.
+RF-00X - Ao clicar em "Contratar" na página de profissionais disponíveis, o usuário será encaminhado para a página de postagem de serviço.
 
 Objetivo do teste - 
 
-Verificar se o usuário consegue se cadastrar na aplicação. 
+Efetuar a postagem de um serviço. 
 
 Passos  - 
 
-Acessar a aplicação, preencher os campos obrigatórios (nome, e-mail, senha, confirmação de senha, endereço e profissão) e clicar em "Cadastrar".
+Preencher os campos obrigatórios (nome, idade, sexo, endereço e serviço) e clicar em "Cadastrar".
 
 Critério de êxito - 
 
-Cadastro realizado e encaminhamento para a página de login.
+O usuário será encaminhado para página de efetuações de pagamento.
+
+Responsável pela elaboração do caso de teste -
+
+Rodrigo Falcão. 
+
+**Caso de teste**   **CT-010 – Formas de Pagamento**  
+
+Requisito associado -  
+
+RF-00X - Ao cadastrar um serviço, o usuário será encaminhado para a página de efetuações de pagamento, aonde ele efetuará o pagamento do serviço.
+
+Objetivo do teste - 
+
+Efetuar o pagamento. 
+
+Passos  - 
+
+Preencher os campos obrigatórios (nome do cartão, número do cartão, data de validade, CVV e valor) e clicar em "Pagar".
+
+Critério de êxito - 
+
+O site exibirá uma confirmação de que o pagamento foi efetuado.
 
 Responsável pela elaboração do caso de teste -
 

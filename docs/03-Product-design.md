@@ -86,12 +86,12 @@ As tabelas a seguir apresentam os requisitos funcionais e não funcionais que de
 | ID     | Descrição do Requisito                                   | Prioridade |
 | ------ | ---------------------------------------------------------- | ---------- |
 | RF-001 | Permitir o cadastro e criação de perfis para clientes e profissionais | ALTA    |
-| RF-002 | Filtro para escolha e contratação dos profissionais | MEDIA     |
+| RF-002 | Filtro para escolha e contratação dos profissionais | MÉDIA     |
 | RF-003 | Permitir que o usuário poste os serviços desejados | ALTA     |
-| RF-004 | Barra de pesquisa para buscar informações e transitar entre as páginas |MEDIA     |
+| RF-004 | Barra de pesquisa para buscar informações e transitar entre as páginas |MÉDIA     |
 | RF-005 | Permitir avaliação de clientes e profissionais | ALTA     |
-| RF-006 | Carrosel com slides que encaminham para páginas do site  | MEDIA     |
-| RF-007 | Banner para tutoriais de alertas contra golpes digitais | MEDIA    |
+| RF-006 | Carrosel com slides que encaminham para páginas do site  | MÉDIA     |
+| RF-007 | Banner para tutoriais de alertas contra golpes digitais | MÉDIA    |
 | RF-008 | Formas de pagamento | ALTA     |
 | RF-009 | Página de administrador | ALTA     |
 | RF-010 | Cards com serviços disponíveis para o cuidador | ALTA     |
@@ -102,7 +102,7 @@ As tabelas a seguir apresentam os requisitos funcionais e não funcionais que de
 | ID      | Descrição do Requisito                                                              | Prioridade |
 | ------- | ------------------------------------------------------------------------------------- | ---------- |
 | RNF-001 | O sistema vai ter portabilidade com dispositivos movéis em geral, principamente mobile e desktops, com interfaces responsivas.                                                                        | MÉDIA      |
-| RNF-002 | Ser intuitivo e acessível, especialmente para os idosos, com uma interface limpa e botoes bem visiveis.                                                                           | ALTA     |
+| RNF-002 | Ser intuitivo e acessível, especialmente para os idosos, com uma interface limpa e botões bem visíveis.                                                                           | ALTA     |
 | RNF-003 | Sistema disponivel 100% do tempo para todas as aplicações do site.      | MEDIA      |
 | RNF-004 | Linguagem HTML, CSS, JSON e JavaScript.                                 | MEDIA      |
 | RNF-005 | O site será disponibilizado no Git Hub, uma plataforma de hospedagem de código fonte e arquivos com controle de versão usando o Git.                                                                                | ALTA     |

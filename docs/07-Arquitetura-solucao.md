@@ -126,18 +126,106 @@ Contatos da aplicação
   
 ```
 
-##### Estrutura de dados - Usuários  ⚠️ EXEMPLO ⚠️
+##### Estrutura de dados - Usuários 
 
-Registro dos usuários do sistema utilizados para login e para o perfil do sistema.
+Registro dos usuários do sistema utilizados para login e para o perfil do sistema. 
+"este Json nao esta vinculado com nosso site ele e uma implementacao futura, mas de qualquer forma sera adicionado ao develop e main"
 
 ```json
  {
-    "imagens": [
-      "/src/public/assets/images/imgidoso1.jpg",
-      "/src/public/assets/images/imgidoso2.jpg",
-      "/src/public/assets/images/imgidoso3.jpg",
-      "/src/public/assets/images/imgidoso4.jpg"
-    ]
+    "body": {
+      "main": {
+        "container": {
+          "section": {
+            "header": {
+              "h2": "Nova conta"
+            }
+          },
+          "form": {
+            "id": "form",
+            "class": "form",
+            "fields": [
+              {
+                "label": "Nome do usuário",
+                "input": {
+                  "type": "text",
+                  "id": "username",
+                  "placeholder": "Digite o nome do usuario..."
+                },
+                "errorMessage": "Aqui vai a mensagem de erro...."
+              },
+              {
+                "label": "Email",
+                "input": {
+                  "type": "email",
+                  "id": "email",
+                  "placeholder": "Digite o seu email..."
+                },
+                "errorMessage": "Aqui vai a mensagem de erro...."
+              },
+              {
+                "label": "Senha",
+                "input": {
+                  "type": "password",
+                  "id": "password",
+                  "placeholder": "Digite sua senha..."
+                },
+                "errorMessage": "Aqui vai a mensagem de erro...."
+              },
+              {
+                "label": "Confirmação de senha",
+                "input": {
+                  "type": "password",
+                  "id": "password-confirmation",
+                  "placeholder": "Digite sua senha novamente..."
+                },
+                "errorMessage": "Aqui vai a mensagem de erro...."
+              },
+              {
+                "label": "Endereço",
+                "inputs": [
+                  {
+                    "type": "text",
+                    "id": "street",
+                    "placeholder": "Digite sua rua..."
+                  },
+                  {
+                    "type": "text",
+                    "id": "neighborhood",
+                    "placeholder": "Digite seu bairro..."
+                  },
+                  {
+                    "type": "text",
+                    "id": "city",
+                    "placeholder": "Digite sua cidade..."
+                  }
+                ],
+                "errorMessage": "Aqui vai a mensagem de erro...."
+              },
+              {
+                "label": "Profissão",
+                "input": {
+                  "type": "text",
+                  "id": "profession",
+                  "placeholder": "Digite sua profissão..."
+                },
+                "errorMessage": "Aqui vai a mensagem de erro...."
+              }
+            ],
+            "submitButton": {
+              "type": "submit",
+              "text": "Cadastrar",
+              "link": "login.html"
+            }
+          }
+        }
+      },
+      "script": {
+        "src": "/src/public/assets/js/cadastro.js"
+      }
+    }
   }
+
+  
 ```
 

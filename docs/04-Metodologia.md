@@ -34,10 +34,16 @@ A ferramenta de controle de versão adotada no projeto foi o [Git](https://git-s
 
 O projeto segue a seguinte convenção para o nome de branches:
 
-- `main`: versão estável já testada do software
-- `unstable`: versão já testada do software, porém instável
-- `testing`: versão em testes do software
-- `dev`: versão de desenvolvimento do software
+- `main`: versão definitiva e já testada do software
+- `develop`: versão de desenvolvimento da integração do software
+- `documentação`: versão de preenchimento da documentação do projeto
+- `Avaliações---Franklin`: versão de desenvolvimento da página de avaliações de usuários
+- `Banner---Ivan`: versão de desenvolvimento do banner localizado na página de tutoriais
+- `Carrossel`: versão de desenvolvimento do carrossel localizado na página Home
+- `Filtro-Rodrigo`: versão de desenvolvimento do filtro para a contratação profissionais
+- `Formas-de-Pagamento---Lucas`: versão de desenvolvimento da página de efetuações de pagamento
+- `Página-de-Administrador---Erik`: versão de desenvolvimento do painel de administrador
+- `Postagem-de-serviço---Rodrigo`: versão de desenvolvimento do formulário de cadastro de serviço por parte dos clientes
 
 Quanto à gerência de issues, o projeto adota a seguinte convenção para etiquetas:
 

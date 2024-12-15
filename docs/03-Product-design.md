@@ -10,26 +10,48 @@
 
 Com base na análise das personas, foram identificadas as seguintes histórias de usuários:
 
-|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
-|--------------------|------------------------------------|----------------------------------------|
-|Idoso.  | Um profissional qualificado para me acompanhar e me ajudar com minhas tarefas.         | Estou sozinha, distante da minha família, tenho limitações pela idade e preciso de alguém que me faça companhia e saiba me socorrer em caso de emergência.                |
-|Filha.       | Uma pessoa de confiança e capaz para ajudar minha mãe que é muito solitária e tem necessidade de cuidados.         | Eu não consigo estar sempre próximo dela.  |
-|Cuidador de idosos.       | Demonstrar minhas capacidades, todos os cursos e treinamentos que eu fiz.        | Para me destacar, ser contratado e receber um retorno financeiro conforme minha qualificação.   |
-|Filho.       | Solicitar os serviços de um cuidador de idosos para auxiliar o meu pai quando eu estiver distante.         | Meu pai necessita de ajuda na sua rotina diária. Ele tem dificuldade para caminhar, lembrar de tomar remédios e se alimentar.   |
-|Idoso.       | Ajuda para ir e voltar do supermercado.         | Preciso de suporte para carregar as compras e pedir um Uber.  |
-|Cuidador de idosos.       | Encontrar oportunidades de emprego mais próximas da minha casa e de melhor remuneração.         | Minha remuneração é muito prejudicada pelos custos de deslocamento do meu trabalho atual. |
-|Idosa.       | Alguém para me ajudar nas minhas tarefas domésticas que exigem um esforço maior.        | Tenho um problema no joelho e isso me enfraquece. Não consigo, por exemplo, varrer a varanda.  |
-|Filho.  | Alguém que ajude minha mãe a mexer no Uber.         | Não estou sempre por perto e não tenho tempo suficiente para ensiná-la com paciência.                |
-|Fisioterapeuta.       | Expandir os meus clientes.         | Fazer uma renda extra e atender quem necessitar do meu trabalho.  |
-|Filha.       | Ter a certeza de que minha mãe está bem assistida, recebendo os cuidados e ajudas necessários.        | Fico muito preocupada com a segurança e o bem-estar da minha mãe, especialmente porque não posso visitá-la com frequência.   |
-|Cuidadora de idosos.       | Encontrar oportunidades de trabalho na minha área.         | Acabei de me formar como técnica na área de assistência aos idosos.   |
-|Administrador de um lar para idosos.       | Otimizar o gerenciamento dos serviços oferecidos pelo meu negócio e encontrar mais cuidadores.         | Busco eficiência e qualidade na administração da instituição.  |
-|Cuidador de idosos.       | Ter mais praticidade na hora de procurar um emprego.         | Não consigo emprego na minha área com facilidade.  |
-|Idoso.       | Melhorar meu contato com redes sociais e ter mais acesso a notícias e jornais digitais.        | Tenho o costume e interesse desde jovem de me informar sobre diversos assuntos.  |
+ |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 
 
+Eu como idoso quero um profissional qualificado para me acompanhar e me ajudar com minhas tarefas, porque estou sozinha, distante da minha família, tenho limitações pela idade e preciso de alguém que me faça companhia e saiba me socorrer em caso de emergência.             
+
+Eu como filha quero uma pessoa de confiança e capaz para ajudar minha mãe que é muito solitária e tem necessidade de cuidados porque eu não consigo estar sempre próximo dela.
 
 
+Eu como cuidador de idosos quero demonstrar minhas capacidades, todos os cursos e treinamentos que eu fiz, para me destacar, ser contratado e receber um retorno financeiro conforme minha qualificação.
+
+
+Eu como filho quero solicitar os serviços de um cuidador de idosos para auxiliar o meu pai quando eu estiver distante, porque meu pai necessita de ajuda na sua rotina diária. Ele tem dificuldade para caminhar, lembrar de tomar remédios e se alimentar.
+
+
+Eu como idoso quero ajuda para ir e voltar do supermercado, porque preciso de suporte para carregar as compras e pedir um Uber.
+
+
+Eu como cuidador de idosos quero encontrar oportunidades de emprego mais próximas da minha casa e de melhor remuneração, porque minha remuneração é muito prejudicada pelos custos de deslocamento do meu trabalho atual.
+
+
+Eu como idosa quero alguém para me ajudar nas minhas tarefas domésticas que exigem um esforço maior, porque tenho um problema no joelho e isso me enfraquece. Não consigo, por exemplo, varrer a varanda.
+
+
+Eu como filho quero alguém que ajude minha mãe a mexer no Uber, porque não estou sempre por perto e não tenho tempo suficiente para ensiná-la com paciência.
+
+
+Eu como fisioterapeuta quero expandir os meus clientes, para fazer uma renda extra e atender quem necessitar do meu trabalho.
+
+
+Eu como filha quero ter a certeza de que minha mãe está bem assistida, recebendo os cuidados e ajudas necessários, porque fico muito preocupada com a segurança e o bem-estar da minha mãe, especialmente porque não posso visitála com frequência.
+
+
+Eu como cuidadora de idosos quero encontrar oportunidades de trabalho na minha área, porque acabei de me formar como técnica na área de assistência aos idosos.
+
+
+Eu como administrador de um lar para idosos quero otimizar o gerenciamento dos serviços oferecidos pelo meu negócio e encontrar mais cuidadores, porque busco eficiência e qualidade na administração da instituição.
+
+
+Eu como cuidador de idosos quero ter mais praticidade na hora de procurar um emprego, porque não consigo emprego na minha área com facilidade.
+
+
+Eu como idoso quero melhorar meu contato com redes sociais e ter mais acesso a notícias e jornais digitais, porque tenho o costume e interesse desde jovem de me informar sobre diversos assuntos.
 
 
 ## Proposta de valor

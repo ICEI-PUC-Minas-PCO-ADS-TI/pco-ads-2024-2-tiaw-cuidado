@@ -6,21 +6,20 @@
 
 ## Etapa de entendimento
 
->
-> * **Matriz CSD**:![](images/Matriz%20CSD.png) 
+* **Matriz CSD**:![](images/Matriz%20CSD.png) 
 
-> * **Mapa de stakeholders**: ![](images/Mapa%20de%20stakeholders.png) 
+* **Mapa de stakeholders**: ![](images/Mapa%20de%20stakeholders.png) 
 
-> * **Entrevistas qualitativas**: ![](images/Entrevistas%201.png)
+* **Entrevistas qualitativas**: ![](images/Entrevistas%201.png)
 ![](images/Entrevistas%202.png)
 ![](images/Entrevistas%203.png)
 ![](images/Entrevista%204.png)
 
-> * **Highlights de pesquisa**: ![](images/Highlights%201.png) 
+* **Highlights de pesquisa**: ![](images/Highlights%201.png) 
 ![](images/Highlights%202.png)
 ![](images/Highlights%203.png)
 ![](images/Highlights%204.png)
-> 
+ 
 ## Etapa de definição
 
 ### Personas

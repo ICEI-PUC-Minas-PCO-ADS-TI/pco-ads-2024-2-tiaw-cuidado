@@ -10,15 +10,29 @@ Não deixe de enumerar os casos de teste de forma sequencial e garantir que o(s)
 
 Por exemplo:
 
-| **Caso de teste**  | **CT-001 – Cadastrar perfil**  |
-|:---: |:---: |
-| Requisito associado | RF-00X - A aplicação deve apresentar, na página principal, a funcionalidade de cadastro de usuários para que estes consigam criar e gerenciar seu perfil. |
-| Objetivo do teste | Verificar se o usuário consegue se cadastrar na aplicação. |
-| Passos | - Acessar o navegador <br> - Informar o endereço do site https://adota-pet.herokuapp.com/src/index.html <br> - Clicar em "Criar conta" <br> - Preencher os campos obrigatórios (e-mail, nome, sobrenome, celular, CPF, senha, confirmação de senha) <br> - Aceitar os termos de uso <br> - Clicar em "Registrar" |
-| Critério de êxito | - O cadastro foi realizado com sucesso. |
-| Responsável pela elaboração do caso de teste | Nome do integrante da equipe. |
+ **Caso de teste**   **CT-001 – Formulário de Cadastro**  
 
-<br>
+Requisito associado -  
+
+RF-00X - A aplicação deve apresentar, como página inical, o formulário de cadastro de usuários para a criação de perfis.
+
+Objetivo do teste - 
+
+Verificar se o usuário consegue se cadastrar na aplicação. 
+
+Passos  - 
+
+Acessar a aplicação, preencher os campos obrigatórios (nome, e-mail, senha, confirmação de senha, endereço e profissão) e clicar em "Cadastrar".
+
+Critério de êxito - 
+
+Cadastro realizado e encaminhamento para a página de login.
+
+Responsável pela elaboração do caso de teste -
+
+Lucas Puggina. 
+
+
 
 | **Caso de teste**  | **CT-002 – Efetuar login**  |
 |:---: |:---: |

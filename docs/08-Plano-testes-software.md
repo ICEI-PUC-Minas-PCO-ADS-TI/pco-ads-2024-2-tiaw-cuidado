@@ -4,7 +4,7 @@
 
 Requisito associado -  
 
-RF-00X - A aplicação deve apresentar, como página inical, o formulário de cadastro de usuários para a criação de perfis.
+RF-001 - A aplicação deve apresentar, como página inical, o formulário de cadastro de usuários para a criação de perfis.
 
 Objetivo do teste - 
 
@@ -26,7 +26,7 @@ Lucas Puggina.
 
 Requisito associado -  
 
-RF-00X - A aplicação deve apresentar, após a conclusão do cadastro, a página de login.
+RF-0011 - A aplicação deve apresentar, após a conclusão do cadastro, a página de login.
 
 Objetivo do teste - 
 
@@ -48,7 +48,7 @@ Lucas Puggina.
 
 Requisito associado -  
 
-RF-00X - A aplicação deve apresentar, na página Home, um carrousel com três imagens que direcionam o usuário para outras páginas do site.
+RF-006 - A aplicação deve apresentar, na página Home, um carrousel com três imagens que direcionam o usuário para outras páginas do site.
 
 Objetivo do teste - 
 
@@ -70,7 +70,7 @@ Erik Alcântara.
 
 Requisito associado -  
 
-RF-00X - Ao entrar com um login de administrador, será exibido como tela principal a página de adminitsrador.
+RF-009 - Ao entrar com um login de administrador, será exibido como tela principal a página de adminitsrador.
 
 Objetivo do teste - 
 
@@ -92,7 +92,7 @@ Erik Alcântara.
 
 Requisito associado -  
 
-RF-00X - Na página de avaliação de usuários, o site deve apresentar uma barra de pesquisa para pesquisar um determinado usuário e um campo de comentários para avaliá-lo.
+RF-005 - Na página de avaliação de usuários, o site deve apresentar uma barra de pesquisa para pesquisar um determinado usuário e um campo de comentários para avaliá-lo.
 
 Objetivo do teste - 
 
@@ -114,7 +114,7 @@ Franklin Reis.
 
 Requisito associado -  
 
-RF-00X - Na página Home, há uma barra de pesquisa para facilitar o acesso às outras páginas do site.
+RF-004 - Na página Home, há uma barra de pesquisa para facilitar o acesso às outras páginas do site.
 
 Objetivo do teste - 
 
@@ -136,7 +136,7 @@ Franklin Reis.
 
 Requisito associado -  
 
-RF-00X - Na página de tutoriais, há um banner que apresenta imagens e encaminha o usuário para a página de tutoriais contra golpes digitais.
+RF-007 - Na página de tutoriais, há um banner que apresenta imagens e encaminha o usuário para a página de tutoriais contra golpes digitais.
 
 Objetivo do teste - 
 
@@ -158,7 +158,7 @@ Ivan Barreto.
 
 Requisito associado -  
 
-RF-00X - O botão "Para Profissionais", ao ser clicado, conduz o profissional para os cards de serviços que os aguardam.
+RF-010 - O botão "Para Profissionais", ao ser clicado, conduz o profissional para os cards de serviços que os aguardam.
 
 Objetivo do teste - 
 
@@ -180,7 +180,7 @@ Ivan Barreto.
 
 Requisito associado -  
 
-RF-00X - Na página de contratação de profissionais, há um filtro de pesquisa para escolher um profissional.
+RF-002 - Na página de contratação de profissionais, há um filtro de pesquisa para escolher um profissional.
 
 Objetivo do teste - 
 
@@ -202,7 +202,7 @@ Rodrigo Falcão.
 
 Requisito associado -  
 
-RF-00X - Ao clicar em "Contratar" na página de profissionais disponíveis, o usuário será encaminhado para a página de postagem de serviço.
+RF-003 - Ao clicar em "Contratar" na página de profissionais disponíveis, o usuário será encaminhado para a página de postagem de serviço.
 
 Objetivo do teste - 
 
@@ -224,7 +224,7 @@ Rodrigo Falcão.
 
 Requisito associado -  
 
-RF-00X - Ao cadastrar um serviço, o usuário será encaminhado para a página de efetuações de pagamento, aonde ele efetuará o pagamento do serviço.
+RF-008 - Ao cadastrar um serviço, o usuário será encaminhado para a página de efetuações de pagamento, aonde ele efetuará o pagamento do serviço.
 
 Objetivo do teste - 
 

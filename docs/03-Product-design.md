@@ -1,4 +1,4 @@
-# Product design
+  # Product design
 
 
 
@@ -73,6 +73,7 @@ As tabelas a seguir apresentam os requisitos funcionais e não funcionais que de
 | RF-008 | Formas de pagamento | ALTA     |
 | RF-009 | Página de administrador | ALTA     |
 | RF-010 | Cards com serviços disponíveis para o cuidador | ALTA     |
+| RF-011 | Login (e-mail e senha) | ALTA     |
 
 ### Requisitos não funcionais
 

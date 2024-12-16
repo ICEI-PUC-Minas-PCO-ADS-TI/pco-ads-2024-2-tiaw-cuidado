@@ -47,10 +47,27 @@ O projeto segue a seguinte convenção para o nome de branches:
 
 Quanto à gerência de issues, o projeto adota a seguinte convenção para etiquetas:
 
-- `documentation`: melhorias ou acréscimos à documentação
-- `bug`: uma funcionalidade encontra-se com problemas
-- `enhancement`: uma funcionalidade precisa ser melhorada
-- `feature`: uma nova funcionalidade precisa ser introduzida
+
+- `Cadastro de Usuários`: funcionalidade da sprint 1 a ser implementada
+- `Tela do Cuidador`: funcionalidade da sprint 1 a ser implementada
+- `Filtro para escolher um profissional`: funcionalidade da sprint 1 a ser implementada
+- `Carrossel`: funcionalidade da sprint 1 a ser implementada
+- `Barra de pesquisa`: funcionalidade da sprint 1 a ser implementada
+- `Banner`: funcionalidade da sprint 2 a ser implementada
+- `Avaliações`: funcionalidade da sprint 2 a ser implementada
+- `Formas-de-Pagamento`: funcionalidade da sprint 2 a ser implementada
+- `Página-de-Administrador`: funcionalidade da sprint 2 a ser implementada
+- `Postagem-de-serviço`: funcionalidade da sprint 2 a ser implementada
+- `Ajustar JSON do site`: tarefa da sprint 3 a ser realizada
+- `Criar Login`:  tarefa da sprint 3 a ser realizada
+- `Implementar perfil no site`:  tarefa da sprint 3 a ser realizada
+- `Corrigir Banner`:  tarefa da sprint 3 a ser realizada
+- `Integração dos artefatos`:  tarefa da sprint 3 a ser realizada
+- `Preencher documentação`:  tarefa da sprint 3 a ser realizada
+- `Responsividade das páginas`:  tarefa da sprint 3 a ser realizada
+- `Realizar o link das páginas`:  tarefa da sprint 3 a ser realizada
+- `Alterar fonte do texto`:  tarefa da sprint 3 a ser realizada
+- `Validações de formulário`:  tarefa da sprint 3 a ser realizada
 
 Discuta como a configuração do projeto foi feita na ferramenta de versionamento escolhida. Exponha como a gestão de tags, merges, commits e branches é realizada. Discuta também como a gestão de issues foi feita.
 

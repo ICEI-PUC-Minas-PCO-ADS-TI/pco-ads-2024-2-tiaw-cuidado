@@ -96,7 +96,13 @@ A equipe utiliza o Scrum como base para definição do processo de desenvolvimen
 ![](images/Sprint2.jpeg)
 ![](images/Kanban_2.jpeg)
 
-GitHub Projects:
+GitHub Projects: 
+
+https://github.com/orgs/ICEI-PUC-Minas-PCO-ADS-TI/projects/23/views/1
+
+https://github.com/orgs/ICEI-PUC-Minas-PCO-ADS-TI/projects/20
+
+https://github.com/orgs/ICEI-PUC-Minas-PCO-ADS-TI/projects/22
 
 ### Ferramentas
 

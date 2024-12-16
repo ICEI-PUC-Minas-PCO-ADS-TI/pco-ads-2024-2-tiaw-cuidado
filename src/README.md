@@ -74,8 +74,25 @@ src/  (esta pasta aqui)
              └── Usuário.png
 │   │   │
 │   │   └── fonts/
-│   │       ├── font1.ttf
-│   │       └── (outras fontes)
+│   │       ├── OFL.txt
+│   │       └── Poppins-Black.ttf
+            └── Poppins-BlackItalic.ttf
+            └── Poppins-Bold.ttf
+            └── Poppins-BoldItalic.ttf
+            └── Poppins-ExtraBold.ttf
+            └── Poppins-ExtraBoldItalic.ttf
+            └── Poppins-ExtraLight.ttf 
+            └── Poppins-ExtraLightItalic.ttf 
+            └── Poppins-Italic.ttf
+            └── Poppins-Light.ttf
+            └── Poppins-LightItalic.ttf
+            └── Poppins-Medium.ttf
+            └── Poppins-MediumItalic.ttf
+            └── Poppins-Regular.ttf
+            └── Poppins-SemiBold.ttf
+            └── Poppins-SemiBoldItalic.ttf
+            └── Poppins-Thin.ttf
+            └── Poppins-ThinItalic.ttf
 │   │
 │   ├── modulos/
 │   │   ├── modulo-1/

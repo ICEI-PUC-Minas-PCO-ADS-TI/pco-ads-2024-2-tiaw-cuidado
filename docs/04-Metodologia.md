@@ -90,11 +90,11 @@ A equipe utiliza o Scrum como base para definição do processo de desenvolvimen
 - Equipe de Desenvolvimento: Ivan Barreto, Rodrigo Falcão, Franklin Reis, Erik Alcântara e Lucas Puggina.
 - Equipe de Design: Erik Alcântara.
 
-### Processo
-
-Coloque detalhes sobre o processo de Design Thinking e a implementação do Framework Scrum seguido pelo grupo. O grupo deverá fazer uso do recurso de gerenciamento de projeto oferecido pelo GitHub, o GitHub Projects, que permite acompanhar o andamento do projeto, a execução das tarefas e o status de desenvolvimento da solução. 
+### Processo 
 
 Coloque uma imagem da estrutura da ferramenta de controle de tarefas (Kanban) e o link do GitHub Projects.
+![](images/Kanban_1.jpeg)
+![](images/Kanban_2.jpeg)
  
 ### Ferramentas
 

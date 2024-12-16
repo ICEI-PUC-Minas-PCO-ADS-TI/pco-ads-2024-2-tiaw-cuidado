@@ -10,6 +10,6 @@ Rodapé - background: (azul claro levemente acinzentado)#92A8D1 e descrição "&
 
 Fonte das Letras - font-family: Poppins; src: url(/src/public/assets/fonts/Poppins-Regular.ttf) format('truetype'); font-weight: 400; font-style: normal.
 
-
+Logomarca - A logo do projeto Cuidado+ simboliza acolhimento, proteção e cuidado com a saúde. As mãos abertas representam suporte e assistência, enquanto o símbolo "+" remete ao compromisso com o bem-estar. A forma circular ao redor transmite a ideia de conexão e continuidade, reforçando a missão do projeto de oferecer um cuidado constante e humanizado.
 
 

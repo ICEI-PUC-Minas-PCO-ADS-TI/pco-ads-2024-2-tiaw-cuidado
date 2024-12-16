@@ -11,21 +11,67 @@ Uma sugestão para a estrutura de diretórios do projeto é a seguinte:
 src/  (esta pasta aqui)
 │
 ├── db/
-│   └── db.json (estruturas de dados)
-│
-├── public/ (seu site - front-end)
+│   ├── imagensBanner.json 
+│   └── pesquisa.json
+    └── slides.json
+    └── users.json
+├── public/ 
 │   ├── assets/
 │   │   ├── css/
-│   │   │   ├── styles.css
-│   │   │   └── (outros arquivos .css)
+            ├──admin
+                ├──admin.css
+                └── ido-cuid.css
+                └── sidebar.css
+│   │   │   ├── avaliações.css
+│   │   │   └── Banner.css
+            └── cadastro.css
+            └── filtro.css
+            └── home.css
+            └── login.css 
+            └── pagamento.css
+            └── postagem.css
+
 │   │   │
 │   │   ├── js/
-│   │   │   ├── app.js
-│   │   │   └── (outros arquivos .js)
+            ├──admin
+                ├──admin.js
+                └── cuidadores.js
+                └── idosos.js
+│   │   │   ├── avaliações.js
+│   │   │   └── banner.js
+            └── cadastro.js
+            └── home.js
+            └── login.js
+            └── pagamento.js
+            └── postagem.js
 │   │   │
 │   │   ├── images/
-│   │   │   ├── logo.png
-│   │   │   └── (outras imagens)
+                ├── admin-images
+                └── chevron-left.png
+                └── cuidador.png
+                └── dashboard.png
+                └── edit.png
+                └── fechar.png
+                └── idosos.png
+                └── logout.png 
+                └── menu.png
+                └── remove.png
+│   │   │    ├── Cláudia Barcelos.png
+│   │   │    └── Cristina.png
+             └── Filomena.png 
+             └── Geraldo.png
+             └── icone_usuario.png
+             └── imgidoso1.jpg
+             └── imgidoso2.jpg
+             └── imgidoso3.jpg
+             └── imgidoso4.jpg
+             └── logo.png
+             └── maria mercedes.png
+             └── search.png
+             └── slide1.jpg
+             └── slide2.jpg
+             └── slide3.jpg
+             └── Usuário.png
 │   │   │
 │   │   └── fonts/
 │   │       ├── font1.ttf

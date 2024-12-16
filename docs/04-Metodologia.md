@@ -96,26 +96,17 @@ A equipe utiliza o Scrum como base para definição do processo de desenvolvimen
 ![](images/Sprint2.jpeg)
 ![](images/Kanban_2.jpeg)
 
-GitHub Projects: 
-
-https://github.com/orgs/ICEI-PUC-Minas-PCO-ADS-TI/projects/23/views/1
-
-https://github.com/orgs/ICEI-PUC-Minas-PCO-ADS-TI/projects/20
-
-https://github.com/orgs/ICEI-PUC-Minas-PCO-ADS-TI/projects/22
+GitHub Projects: https://github.com/ICEI-PUC-Minas-PCO-ADS-TI/pco-ads-2024-2-tiaw-cuidado/projects?query=is%3Aopen
 
 ### Ferramentas
 
-Liste todas as ferramentas que foram empregadas no projeto, justificando a escolha delas, sempre que possível. Inclua itens como: (1) editor de código, (2) ferramentas de comunicação, (3) ferramentas de diagramação, (4) plataformas de hospedagem, entre outras.
-
-⚠️ EXEMPLO ⚠️ os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a relação dos ambientes com seu respectivo propósito é apresentada na tabela que se segue.
-
 | Ambiente                            | Plataforma                         | Link de acesso                       |
 |-------------------------------------|------------------------------------|--------------------------------------|
-| Processo de Design Thinking         | Miro                               | https://....   ⚠️ EXEMPLO ⚠️        |
-| Repositório de código fonte         | GitHub                             | https://....   ⚠️ EXEMPLO ⚠️        |
-| Documentos do projeto               | GitHub                             | http://....    ⚠️ EXEMPLO ⚠️        |
-| Gerenciamento do projeto            | GitHub Projects                    | http://....    ⚠️ EXEMPLO ⚠️        |
-| Projeto de interface                | Figma                              | http://....    ⚠️ EXEMPLO ⚠️        |
-| Hospedagem                          | Vercel                             | http://....    ⚠️ EXEMPLO ⚠️        |
+| Processo de Design Thinking         | Miro                               | https://miro.com/app/board/uXjVKoqwShM=/        |
+| Repositório de código fonte         | GitHub                             | https://github.com/ICEI-PUC-Minas-PCO-ADS-TI/pco-ads-2024-2-tiaw-cuidado        |
+| Documentos do projeto               | GitHub                             | https://github.com/ICEI-PUC-Minas-PCO-ADS-TI/pco-ads-2024-2-tiaw-cuidado        |
+| Gerenciamento do projeto            | GitHub Projects                    | https://github.com/ICEI-PUC-Minas-PCO-ADS-TI/pco-ads-2024-2-tiaw-cuidado/projects?query=is%3Aopen       |
+| Projeto de interface                | Figma                              | https://www.figma.com/proto/GOrsjO7zJH1fKIcQRKxlCc/WIREFRAME?node-id=163-28&t=GEug4PV1TCrrWVCl-1        |
+| Reunião               | Discord | https://discord.com/       |
+
  

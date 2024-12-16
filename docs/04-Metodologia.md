@@ -3,22 +3,22 @@
 
 <span style="color:red">Pré-requisitos: <a href="03-Product-design.md"> Product design</a></span>
 
-Para o desenvolvimento do projeto Cuidado+, seguimos uma metodologia estruturada em etapas que garantiram a organização, alinhamento com os objetivos e a colaboração da equipe.
+Para o desenvolvimento do projeto Cuidado+, foi seguida uma metodologia estruturada em etapas, garantindo a organização, alinhamento com os objetivos e a colaboração da equipe.
 
 Definição do projeto
-Iniciamos com a elaboração das definições principais do projeto, criando um mapa de stakeholders e realizando o alinhamento de CSD (Certezas, Suposições e Dúvidas). Essa etapa foi essencial para estabelecer um direcionamento claro.
+Iniciou-se com a elaboração das definições principais do projeto, criando um mapa de stakeholders e realizando o alinhamento de CSD (Certezas, Suposições e Dúvidas). Essa etapa foi essencial para estabelecer um direcionamento claro.
 
 Entrevistas qualitativas e análise do público
-Realizamos entrevistas qualitativas com o objetivo de identificar as dores e necessidades do nosso público-alvo. A partir dessas informações, desenvolvemos personas representativas baseadas em nossas pesquisas de campo, detalhando os ganhos, dores e os principais aspectos nos quais eles necessitam de suporte.
+Entrevistas qualitativas foram realizadas com o objetivo de identificar as dores e necessidades do público-alvo. A partir dessas informações, foram desenvolvidas personas representativas baseadas em pesquisas de campo, detalhando os ganhos, dores e os principais aspectos nos quais o público necessita de suporte.
 
 Criação de protótipos
-Utilizamos a plataforma Figma para criar protótipos que serviram como guia visual e funcional para a construção do site. Esses protótipos ajudaram a validar ideias e manter a equipe alinhada quanto ao design e à usabilidade do produto final.
+A plataforma Figma foi utilizada para criar protótipos que serviram como guia visual e funcional para a construção do site. Esses protótipos ajudaram a validar ideias e manter a equipe alinhada quanto ao design e à usabilidade do produto final.
 
 Planejamento dos artefatos e divisão do trabalho
-Definimos 10 artefatos essenciais para o site, organizados em duas etapas (sprints). Cada integrante da equipe ficou responsável por desenvolver dois artefatos durante as sprints, utilizando o VS Code como ferramenta principal.
+Foram definidos 10 artefatos essenciais para o site, organizados em duas etapas (sprints). Cada integrante da equipe ficou responsável por desenvolver dois artefatos durante as sprints, utilizando o VS Code como ferramenta principal.
 
 Controle de versionamento e documentação
-O repositório do projeto foi gerenciado no GitHub, onde armazenamos os códigos de cada artefato e toda a documentação associada. Utilizamos o sistema de kanban integrado para monitorar o progresso de cada artefato e identificar seu status no fluxo de desenvolvimento.
+O repositório do projeto foi gerenciado no GitHub, onde foram armazenados os códigos de cada artefato e toda a documentação associada. Utilizou-se o sistema de kanban integrado para monitorar o progresso de cada artefato e identificar seu status no fluxo de desenvolvimento.
 
 Essa abordagem metodológica garantiu que o projeto fosse desenvolvido de forma colaborativa, organizada e com foco nas necessidades reais do público-alvo.
 

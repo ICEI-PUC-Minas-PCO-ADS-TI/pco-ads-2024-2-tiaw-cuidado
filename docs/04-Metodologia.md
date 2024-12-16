@@ -92,10 +92,12 @@ A equipe utiliza o Scrum como base para definição do processo de desenvolvimen
 
 ### Processo 
 
-Coloque uma imagem da estrutura da ferramenta de controle de tarefas (Kanban) e o link do GitHub Projects.
-![](images/Kanban_1.jpeg)
+![](images/Sprint1.jpeg)
+![](images/Sprint2.jpeg)
 ![](images/Kanban_2.jpeg)
- 
+
+GitHub Projects:
+
 ### Ferramentas
 
 Liste todas as ferramentas que foram empregadas no projeto, justificando a escolha delas, sempre que possível. Inclua itens como: (1) editor de código, (2) ferramentas de comunicação, (3) ferramentas de diagramação, (4) plataformas de hospedagem, entre outras.

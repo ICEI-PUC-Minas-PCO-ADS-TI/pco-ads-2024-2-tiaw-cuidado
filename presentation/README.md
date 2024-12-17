@@ -9,7 +9,7 @@
 
 ## Vídeo
 
-[Assista ao vídeo](https://youtube.com/shorts/PJfTXE1u7Sk?si=lEySWfvJ7o22ebbi)
+[Assista ao vídeo]()
 
 
 
